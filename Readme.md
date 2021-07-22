@@ -2,7 +2,11 @@ Alumno: Fernando Pérez Mora
 
 ## Ejercicios y Labs para dejar evidencia del AZ-400
 
+[AZ400-DESIGNINGANDIMPLEMENTINGMICROSOFTDEVOPSSOLUTIONS](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions)[ GitHub](https://github.com/MicrosoftLearning/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions)
 
+# Content Directory
+
+Hyperlinks to each of the lab exercises are listed below.
 
 ## Labs
 

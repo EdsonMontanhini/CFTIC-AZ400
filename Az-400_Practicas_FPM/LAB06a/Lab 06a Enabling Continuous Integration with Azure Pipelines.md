@@ -53,17 +53,35 @@ In this task, you will use Azure DevOps Demo Generator to generate a new project
 
 2. Click **Sign in** and sign in using the Microsoft account associated with your Azure DevOps subscription.
 
+   ![LAB06a-Az400_01](Evidencia/LAB06a-Az400_01.png)
+
 3. If required, on the **Azure DevOps Demo Generator** page, click **Accept** to accept the permission requests for accessing your Azure DevOps subscription.
 
 4. On the **Create New Project** page, in the **New Project Name** textbox, type **Enabling Continuous Integration with Azure Pipelines**, in the **Select organization** dropdown list, select your Azure DevOps organization, and then click **Choose template**.
 
+   ![LAB06a-Az400_02](Evidencia/LAB06a-Az400_02.png)
+
 5. In the list of templates, locate the **PartsUnlimited** template and click **Select Template**.
+
+   ![LAB06a-Az400_03](Evidencia/LAB06a-Az400_03.png)
 
 6. Back on the **Create New Project** page, click **Create Project**
 
+   ![LAB06a-Az400_04](Evidencia/LAB06a-Az400_04.png)
+
    > **Note**: Wait for the process to complete. This should take about 2 minutes. In case the process fails, navigate to your DevOps organization, delete the project, and try again.
 
+   ![LAB06a-Az400_05](Evidencia/LAB06a-Az400_05.png)
+
+   ![LAB06a-Az400_06](Evidencia/LAB06a-Az400_06.png)
+
+   
+
 7. On the **Create New Project** page, click **Navigate to project**.
+
+   ![LAB06a-Az400_07](Evidencia/LAB06a-Az400_07.png)
+
+   ![LAB06a-Az400_08](Evidencia/LAB06a-Az400_08.png)
 
 ### Exercise 1: Introduction to Azure DevOps Build
 
@@ -75,53 +93,105 @@ In this task, you will create and configure a build pipeline by using a predefin
 
 1. In the web browser displaying your Azure DevOps organization with the **Enabling Continuous Integration with Azure Pipelines** project you generated in the previous exercise, in the vertical navigational pane, select the **Pipelines** section and ensure that the **Pipelines** view is displayed.
 
+   ![LAB06a-Az400_09](Evidencia/LAB06a-Az400_09.png)
+
+   ![LAB06a-Az400_10](Evidencia/LAB06a-Az400_10.png)
+
    > **Note**: Alternatively, you can access the project page directly by navigating to the [https://dev.azure.com/`<your-Azure-DevOps-account-name>`/Enabling%20Continuous%20Integration%20with%20Azure%20Pipelines) URL, where the `<your-Azure-DevOps-account-name>` placeholder, represents your account name.
 
 2. On the **Pipelines** pane, hover the mouse pointer over the entry representing the existing **PartsUnlimitedE2E** pipeline to reveal the ellipsis symbol on the right side.
 
 3. Click the ellipsis and, in the dropdown menu, click **Edit**.
 
+   ![LAB06a-Az400_11](Evidencia/LAB06a-Az400_11.png)
+
    > **Note**: In order to avoid two pipelines being triggered later in the lab, start by disabling the CI trigger for the pipeline created by the template.
 
 4. On the **Tasks** tab of the **PartsUnlimitedE2E** pane, click the **Triggers** tab, clear the checkbox **Enable continuous integration**, click **Save & queue** and then click **Save**.
 
+   ![LAB06a-Az400_12](Evidencia/LAB06a-Az400_12.png)
+
+   ![LAB06a-Az400_13](Evidencia/LAB06a-Az400_13.png)
+
+   ![LAB06a-Az400_14](Evidencia/LAB06a-Az400_14.png)
+
+   ![LAB06a-Az400_15](Evidencia/LAB06a-Az400_16.png)
+
+   
+
 5. To create a new pipeline, navigate back to the **Pipelines** view by selecting **Pipelines** in the vertical navigational pane in the Azure DevOps portal.
 
+   ![LAB06a-Az400_17](Evidencia/LAB06a-Az400_17.png)
+
 6. Back on the **Pipelines** pane, click **New pipeline** to create a new build pipeline.
+
+   ![LAB06a-Az400_18](Evidencia/LAB06a-Az400_18.png)
 
    > **Note**: The default option for build pipelines involves the use of YAML. For this lab, you will use the classic editor.
 
 7. On the **Where is your code>?** pane, click the **Use the classic editor** link at the bottom of the page.
 
+   ![LAB06a-Az400_19](Evidencia/LAB06a-Az400_19.png)
+
    > **Note**: You need to start by configuring the source repository. Every major platform is available, but the default options are all we need here. This build will use the **master** branch of the **PartsUnlimited** repo.
 
 8. Ensure that the **Azure Repos Git** option with the **PartsUnlimited** repository and **master** branch entries are selected, and click **Continue**.
 
+   ![LAB06a-Az400_20](Evidencia/LAB06a-Az400_20.png)
+
 9. On the **Choose a template** pane, in the **Search** text box, type **ASP.NET**, in the list of results, select the **ASP.NET** template and click **Apply** to apply this template to the build definition.
+
+   ![LAB06a-Az400_21](Evidencia/LAB06a-Az400_21.png)
+
+   ![LAB06a-Az400_23](Evidencia/LAB06a-Az400_23.png)
+
+   ![LAB06a-Az400_24](Evidencia/LAB06a-Az400_24.png)
 
    > **Note**: Note that there are many options that should cover all of our mainstream scenarios. For our purposes here, we’ll just build the project using the baseline ASP.NET template. The process for this build pipeline is easy to follow. After getting the source, Azure DevOps will use NuGet to restore any dependent packages. Then, the project will be built and tested. The results will then be published to the configured target.
 
 10. Select the **Variables** tab and review its content.
 
+    ![LAB06a-Az400_25](Evidencia/LAB06a-Az400_25.png)
+
+    ![LAB06a-Az400_26](Evidencia/LAB06a-Az400_26.png)
+
+    ![LAB06a-Az400_27](Evidencia/LAB06a-Az400_27.png)
+
     > **Note**: Here you can configure special parameters to be used during the build, such as the configuration or platform.
 
 11. Select the **Triggers** tab and check the **Enable continuous integration** checkbox.
+
+    ![LAB06a-Az400_28](Evidencia/LAB06a-Az400_28.png)
+
+    ![LAB06a-Az400_29](Evidencia/LAB06a-Az400_29.png)
+
+    
 
     > **Note**: This automatically invokes the build whenever source changes are committed. Triggers allow you to automatically invoke builds on a schedule, when another build completes, or when changes are made to the source.
 
 12. Select the **Options** tab and review its content.
 
+    ![LAB06a-Az400_30](Evidencia/LAB06a-Az400_30.png)
+
     > **Note**: This section includes a wide variety of options related to the build workflow. Note that you’ll generally configure options for specific build tasks on the configuration views of the tasks themselves.
 
 13. Select the **History** tab.
+
+    ![LAB06a-Az400_31](Evidencia/LAB06a-Az400_31.png)
 
     > **Note**: At this point, the tab does not contain any entries, but it will show a history of changes you make to the build definition.
 
 14. Select the **Save & Queue** tab header and, in the dropdown menu, select **Save & Queue** entry to save and queue a new build.
 
+    ![LAB06a-Az400_34](Evidencia/LAB06a-Az400_34.png)
+
     > **Note**: You can define the retention time for pipeline artifacts from **Project Settings** > **Settings** > **Retention policy**. These settings enable you to configure which pipeline runs are retained and for how long.
 
 15. In the **Run pipeline** pane, accept the default options and click **Save and run**. This will automatically display the **Summary** tab of the pipeline run job, with the **Queued** status.
+
+    ![LAB06a-Az400_35](Evidencia/LAB06a-Az400_35.png)
+
+    ![LAB06a-Az400_36](Evidencia/LAB06a-Az400_36.png)
 
 #### Task 2: Tracking and reviewing a build
 
@@ -131,13 +201,33 @@ In this task, you will track and review the new build job.
 
 1. On the **Summary** tab of the pipeline run job, in the **Jobs** section, click **Agent job 1**. This will display the details pane of the job.
 
+   ![LAB06a-Az400_37](Evidencia/LAB06a-Az400_37.png)
+
+   ![LAB06a-Az400_38](Evidencia/LAB06a-Az400_38.png)
+
+   ![LAB06a-Az400_39](Evidencia/LAB06a-Az400_39.png)
+
    > **Note**: If you want to review an earlier task, you can scroll the right pane to review its logs.
 
 2. Once the build completes successfully, on the job details pane, click the left-facing arrow to return to the summary view.
 
+   ![LAB06a-Az400_40](Evidencia/LAB06a-Az400_40.png)
+
    > **Note**: The summary view provides overview details about the build, including details about commits, tests, and artifacts.
 
 3. Select the **Tests** tab to review tests for this build.
+
+   ![LAB06a-Az400_41](Evidencia/LAB06a-Az400_41.png)
+
+   ![LAB06a-Az400_42](Evidencia/LAB06a-Az400_42.png)
+
+   ![LAB06a-Az400_43](Evidencia/LAB06a-Az400_43.png)
+
+   ![LAB06a-Az400_44](Evidencia/LAB06a-Az400_44.png)
+
+   ![LAB06a-Az400_45](Evidencia/LAB06a-Az400_45.png)
+
+   ![LAB06a-Az400_46](Evidencia/LAB06a-Az400_46.png)
 
    > **Note**: You also have easy access to the pipeline editor, the ability to queue a new build, and download the artifacts of this build.
 
@@ -149,13 +239,25 @@ In this task, you will trigger a continuous integration build.
 
 1. In the web browser window displaying your project settings in the Azure DevOps portal, in the vertical navigational pane, select the **Repos** section and ensure that the **Files** view is displayed.
 
+   ![LAB06a-Az400_47](Evidencia/LAB06a-Az400_47.png)
+
 2. In the middle pane, navigate to the file **PartsUnlimited-aspnet45/src/PartsUnlimitedWebsite/Views/Home/Index.cshtml** and select it.
+
+   ![LAB06a-Az400_48](Evidencia/LAB06a-Az400_48.png)
 
 3. On the **Index.cshtml** pane, click **Edit**.
 
+   ![LAB06a-Az400_49](Evidencia/LAB06a-Az400_49.png)
+
 4. On the **Index.cshtml** pane, make a minor update by changing the line `ViewBag.Title = "Home Page";` to `ViewBag.Title = "Lab Project Home Page";` and click **Commit**.
 
+   ![LAB06a-Az400_50](Evidencia/LAB06a-Az400_50.png)
+
 5. On the **Commit** pane, accept the default commit details and click **Commit**.
+
+   ![LAB06a-Az400_51](Evidencia/LAB06a-Az400_51.png)
+
+   ![LAB06a-Az400_52](Evidencia/LAB06a-Az400_52.png)
 
    > **Note**: This will automatically trigger a build.
 
@@ -163,7 +265,19 @@ In this task, you will trigger a continuous integration build.
 
 7. On the **Pipelines** pane, verify that it contains the entry representing a new build (note that its number contains the trailing **.2**) which was triggered by your change.
 
+   ![LAB06a-Az400_53](Evidencia/LAB06a-Az400_53.png)
+
+   ![LAB06a-Az400_54](Evidencia/LAB06a-Az400_54.png)
+
 8. Click the build entry to display its details and verify that it completed successfully.
+
+   ![LAB06a-Az400_55](Evidencia/LAB06a-Az400_55.png)
+
+   ![LAB06a-Az400_56](Evidencia/LAB06a-Az400_56.png)
+
+   ![LAB06a-Az400_57](Evidencia/LAB06a-Az400_57.png)
+
+   ![LAB06a-Az400_58](Evidencia/LAB06a-Az400_58.png)
 
 #### Review
 

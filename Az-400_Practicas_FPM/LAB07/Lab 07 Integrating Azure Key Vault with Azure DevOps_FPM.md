@@ -619,9 +619,7 @@ Open the **App Service** and browse it **(Overview -> Browse)**, to see the publ
 
 ![LAB07-Az400_133a](Evidencia/LAB07-Az400_133a.png)
 
-![LAB07-Az400_134](Evidencia/LAB07-Az400_134.png)
 
-![LAB07-Az400_134a](Evidencia/LAB07-Az400_134a.png)
 
 ![LAB07-Az400_135](Evidencia/LAB07-Az400_135.png)
 

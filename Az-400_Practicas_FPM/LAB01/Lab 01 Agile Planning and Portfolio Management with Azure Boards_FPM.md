@@ -56,25 +56,51 @@ In this task, you will use Azure DevOps Demo Generator to generate a new project
 
 2. Click **Sign in** and sign in using the Microsoft account associated with your Azure DevOps subscription.
 
-   [![Azure DevOps Generator website. Clik on "Sign In" option](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/demo_signin_v1.png)](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/demo_signin_v1.png)
+   ![LAB01-Az400_01](Evidencia/LAB01-Az400_01.png)
 
 3. If required, on the **Azure DevOps Demo Generator** page, click **Accept** to accept the permission requests for accessing your Azure DevOps subscription.
 
+   ![LAB01-Az400_02](Evidencia/LAB01-Az400_02.png)
+
+   ![LAB01-Az400_03](Evidencia/LAB01-Az400_03.png)
+
+   ![LAB01-Az400_03a](Evidencia/LAB01-Az400_03a.png)
+
+   ![LAB01-Az400_04](Evidencia/LAB01-Az400_04.png)
+
+   ![LAB01-Az400_05](Evidencia/LAB01-Az400_05.png)
+
+   ![LAB01-Az400_05a](Evidencia/LAB01-Az400_05a.png)
+
 4. On the **Create New Project** page, in the **New Project Name** textbox, type **Agile Planning and Portfolio Management with Azure Boards**, in the **Select organization** dropdown list, select your Azure DevOps organization, and then click **Choose template**.
+
+   ![LAB01-Az400_06](Evidencia/LAB01-Az400_06.png)
+
+   ![LAB01-Az400_07](Evidencia/LAB01-Az400_07.png)
 
 5. In the list of templates, locate the **PartsUnlimited** template and click **Select Template**.
 
-   [![Azure DevOps Generator website. On the choose template window, select "PartsUnlimited"](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/pu_template_v1.png)](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/pu_template_v1.png)
+   ![LAB01-Az400_09](Evidencia/LAB01-Az400_09.png)
 
 6. Back on the **Create New Project** page, click **Create Project**
 
-   [![Azure DevOps Generator website. Clik on "Create project"](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/create_project_v1.png)](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/create_project_v1.png)
+   ![LAB01-Az400_10](Evidencia/LAB01-Az400_10.png)
+
+   ![LAB01-Az400_11](Evidencia/LAB01-Az400_11.png)
+
+   ![LAB01-Az400_12](Evidencia/LAB01-Az400_12.png)
 
    > **Note**: Wait for the process to complete. This should take about 2 minutes. In case the process fails, navigate to your Azure DevOps organization, delete the project, and try again.
 
 7. On the **Create New Project** page, click **Navigate to project**.
 
-   [![Azure DevOps Generator website. Clik on "Navigate to Project"](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/navigate_project_v1.png)](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/navigate_project_v1.png)
+   ![LAB01-Az400_13](Evidencia/LAB01-Az400_13.png)
+
+   ![LAB01-Az400_14](Evidencia/LAB01-Az400_14.png)
+
+   
+
+   
 
 ### Exercise 1: Manage Agile project
 
@@ -88,45 +114,95 @@ Each new project is configured with a default team, which name matches the proje
 
 1. Verify that the web browser displays your Azure DevOps organization with the **Agile Planning and Portfolio Management with Azure Boards** project you generated in the previous exercise.
 
+   ![LAB01-Az400_15](Evidencia/LAB01-Az400_15.png)
+
+   ![LAB01-Az400_16](Evidencia/LAB01-Az400_16.png)
+
+   ![LAB01-Az400_80a](Evidencia/LAB01-Az400_80a.png)
+
+   ![LAB01-Az400_80b](Evidencia/LAB01-Az400_80b.png)
+
+   ![LAB01-Az400_80c](Evidencia/LAB01-Az400_80c.png)
+
+   ![LAB01-Az400_80d](Evidencia/LAB01-Az400_80d.png)
+
    > **Note**: Alternatively, you can access the project page directly by navigating to the [https://dev.azure.com/`<your-Azure-DevOps-account-name>`/Agile%20Planning%20and%20Portfolio%20Management%20with%20Azure%20Boards) URL, where the `<your-Azure-DevOps-account-name>` placeholder, represents your account name.
 
 2. Click the cogwheel icon labeled **Project settings** located in the lower left corner of the page to open the **Project settings** page.
 
-   [![Azure DevOps project window. Click on "Project settings" option](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/project_settings_v1.png)](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/project_settings_v1.png)
+   ![LAB01-Az400_17](Evidencia/LAB01-Az400_17.png)
+
+   ![LAB01-Az400_18](Evidencia/LAB01-Az400_18.png)
+
+   ![LAB01-Az400_19](Evidencia/LAB01-Az400_19.png)
 
 3. In the **General** section, select the **Teams** tab. There are already a few teams in this project, but you’ll create a new one for this lab. Click **New Team**.
 
-   [![In project settings window, "Teams" tab, click on "New Team"](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/new_team_v1.png)](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/new_team_v1.png)
+   ![LAB01-Az400_20](Evidencia/LAB01-Az400_20.png)
 
 4. On the **Create a new team** pane, in the **Team name** textbox, type **PUL-Web**, leave other settings with their default values, and click **Create**.
 
-   [![In "create a new team" window, call your new team "PUL-Web" and click "Create"](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/pulweb_v1.png)](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/pulweb_v1.png)
+   ![LAB01-Az400_22a](Evidencia/LAB01-Az400_22a.png)
+
+   ![LAB01-Az400_22b](Evidencia/LAB01-Az400_22b.png)
+
+   
 
 5. In the list of **Teams**, select the newly created team to view its details.
+
+   ![LAB01-Az400_22c](Evidencia/LAB01-Az400_22c.png)
 
    > **Note**: By default, the new team has only you as its member. You can use this view to manage such functionality as team membership, notifications, and dashboards.
 
 6. Click **Iterations and Area Paths** link at the top of the **PUL-Web** page to start defining the schedule and scope of the team.
 
-   [![In project settings window, "Teams" tab, "PUL-Web" team, click on "Iterations and Area Paths"](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/iterationsareas_v1.png)](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/iterationsareas_v1.png)
+   ![LAB01-Az400_23a](Evidencia/LAB01-Az400_23a.png)
 
 7. At the top of the **Boards** pane, select the **Iterations** tab and then click **+ Select iteration(s)**.
 
-   [![In the "interations" tab, click on "Select Iteration"](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/select_iteration_v1.png)](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/select_iteration_v1.png)
+   ![LAB01-Az400_24a](Evidencia/LAB01-Az400_24a.png)
+
+   ![LAB01-Az400_25a](Evidencia/LAB01-Az400_25a.png)
+
+   ![LAB01-Az400_26a](Evidencia/LAB01-Az400_26a.png)
+
+   
 
 8. Select **Agile Planning and Portfolio Management with Azure Boards\Sprint 1** and click **Save and close**. Note that this first sprint has already passed. This is because the demo data generator is designed to build out project history so that this sprint occurs in the past.
+
+   ![LAB01-Az400_27a](Evidencia/LAB01-Az400_27a.png)
+
+   ![LAB01-Az400_28a](Evidencia/LAB01-Az400_28a.png)
+
+   ![LAB01-Az400_30a](Evidencia/LAB01-Az400_30a.png)
+
+   
 
    > **Note**: The new team will use the same iteration schedule that’s already in place for the other teams, but you could create a custom one if that is more suitable for your organization.
 
 9. Repeat the previous step to add **Sprint 2** and **Sprint 3**. The second sprint is our current iteration, and the third is in the near future.
 
-   [![Do the same for Sprint 2 and 3, make sure they are created for "PUL-Web" team](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/3sprints_v1.png)](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/3sprints_v1.png)
+   ![LAB01-Az400_31a](Evidencia/LAB01-Az400_31a.png)
+
+   ![LAB01-Az400_31b](Evidencia/LAB01-Az400_31b.png)
+
+   ![LAB01-Az400_31c](Evidencia/LAB01-Az400_31c.png)
+
+   ![LAB01-Az400_33a](Evidencia/LAB01-Az400_33a.png)
+
+   ![LAB01-Az400_33b](Evidencia/LAB01-Az400_33b.png)
+
+   ![LAB01-Az400_34a](Evidencia/LAB01-Az400_34a.png)
 
 10. Back on the **Boards** pane, at the top of the pane, select the **Areas** tab. You will find there an automatically generated area with the name matching the name of the team.
 
+    ![LAB01-Az400_35a](Evidencia/LAB01-Az400_35a.png)
+
+    
+
 11. Click the ellipsis symbol next to the **default area** entry and, in the dropdown list, select **Include sub areas**.
 
-    [![In the "Areas" tab, clik on the ellipsis icon for "PUL-Web" area and select "Include sub areas"](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/sub_areas_v1.png)](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/sub_areas_v1.png)
+    ![LAB01-Az400_37a](Evidencia/LAB01-Az400_37a.png)
 
     > **Note**: The default setting for all teams is to exclude sub-area paths. We will change it to include sub-areas so that the team gets visibility into all of the work items from all teams. Optionally, the management team could also choose to not include sub-areas, which automatically removes work items from their view as soon as they are assigned to one of the teams.
 
@@ -140,11 +216,13 @@ Work items play a prominent role in Azure DevOps. Whether describing work to be 
 
 1. In the vertical navigational pane of the Azure DevOps portal, select the **Boards** icon and, select **Work Items**.
 
+   ![LAB01-Az400_39a](Evidencia/LAB01-Az400_39a.png)
+
    > **Note**: There are many ways to create work items in Azure DevOps, and we’ll explore a few of them. Sometimes it’s as simple as firing one off from a dashboard.
 
 2. On the **Work Items** window, click on **+ New Work Item > Epic**.
 
-   [![In the "Boards">"Work Items" window, click on "New work item" >Epic](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/create_epic_v1.png)](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/create_epic_v1.png)
+   ![LAB01-Az400_40a](Evidencia/LAB01-Az400_40a.png)
 
 3. In the **Enter title** textbox, type **Product training**.
 
@@ -154,9 +232,11 @@ Work items play a prominent role in Azure DevOps. Whether describing work to be 
 
 6. Next to the **Iteration** entry, select the **Agile Planning and Portfolio Management with Azure Boards** entry and, in the dropdown list, select **Sprint 2**. This will set the **Iteration** to **Agile Planning and Portfolio Management with Azure Boards\Sprint 2**.
 
+   ![LAB01-Az400_41](Evidencia/LAB01-Az400_41.png)
+
 7. Click **Save** to finalize your changes. **Do not close it**.
 
-   [![Enter previously shown information and click "Save" in Epic window](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/epic_details_v1.png)](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/epic_details_v1.png)
+   ![LAB01-Az400_42](Evidencia/LAB01-Az400_42.png)
 
    > **Note**: Ordinarily you would want to fill out as much information as possible, but this is sufficient for the purposes of this lab.
 
@@ -164,23 +244,33 @@ Work items play a prominent role in Azure DevOps. Whether describing work to be 
 
 8. In the **Related work** section, select the **Add link** entry and, in the dropdown list, select **New item**.
 
+   ![LAB01-Az400_43](Evidencia/LAB01-Az400_43.png)
+
+   ![LAB01-Az400_44](Evidencia/LAB01-Az400_44.png)
+
 9. On the **Add link** panel, in the **Work item type** dropdown list, select **Feature**, in the **Title** textbox, type **Training dashboard** and click **OK**.
 
-   [![Include Title 'Training Dashboard' and click 'OK' ](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/child_feature_v1.png)](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/child_feature_v1.png)
+   ![LAB01-Az400_45](Evidencia/LAB01-Az400_45.png)
 
    > **Note**: On the **Training dashboard** panel, note that the assignment, **Area**, and **Iteration** are already set to the same values as the epic that the feature is based on. In addition, the feature is automatically linked to the parent item it was created from.
 
 10. On the **Training dashboard** panel, click **Save & Close**.
 
-    [![In the "Training dashboard" feature window, click "Save & Close"](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/feature_v1.png)](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/feature_v1.png)
+    ![LAB01-Az400_46](Evidencia/LAB01-Az400_46.png)
 
 11. In the vertical navigational pane of the Azure DevOps portal, in the list of the **Boards** items, select **Boards**.
 
+    ![LAB01-Az400_47](Evidencia/LAB01-Az400_47.png)
+
 12. On the **Boards** panel, select the **PUL-Web boards** entry. This will open the board for that particular team.
 
-    [![ In "Boards>Boards" window, select "PUL-Web boards"](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/pulweb_boards_v1.png)](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/pulweb_boards_v1.png)
+    ![LAB01-Az400_48](Evidencia/LAB01-Az400_48.png)
 
 13. On the **Boards** panel, in the upper right corner, select the **Backlog items** entry and, in the dropdown list, select **Features**.
+
+    ![LAB01-Az400_49](Evidencia/LAB01-Az400_49.png)
+
+    ![LAB01-Az400_50](Evidencia/LAB01-Az400_50.png)
 
     > **Note**: This will make it easy to add tasks and other work items to the features.
 
@@ -188,23 +278,33 @@ Work items play a prominent role in Azure DevOps. Whether describing work to be 
 
 15. Click the ellipsis icon and, in the dropdown list, select **Add Product Backlog Item**.
 
-    [![Click on the ellipis for "Training dashboard" feature and click "Add Product Backlog Item"](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/add_pb_v1.png)](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/add_pb_v1.png)
+    ![LAB01-Az400_51](Evidencia/LAB01-Az400_51.png)
 
 16. In the textbox of the new product backlog item, type **As a customer, I want to view new tutorials** and press the **Enter** key to save the entry.
+
+    ![LAB01-Az400_52](Evidencia/LAB01-Az400_52.png)
 
     > **Note**: This creates a new product backlog item (PBI) work item that is a child of the feature and shares its area and iteration.
 
 17. Repeat the previous step to add two more PBIs designed to enable the customer to see their recently viewed tutorials and to request new tutorials named, respectively, **As a customer, I want to see tutorials I recently viewed** and **As a customer, I want to request new tutorials**.
 
-    [![Repeat by clicking on "Add Product Backlog" ](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/pbis_v1.png)](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/pbis_v1.png)
+    ![LAB01-Az400_53](Evidencia/LAB01-Az400_53.png)
+
+    ![LAB01-Az400_54](Evidencia/LAB01-Az400_54.png)
+
+    ![LAB01-Az400_55](Evidencia/LAB01-Az400_55.png)
 
 18. On the **Boards** panel, in the upper right corner, select the **Features** entry and, in the dropdown list, select **Backlog items**.
+
+    ![LAB01-Az400_56](Evidencia/LAB01-Az400_56.png)
+
+    ![LAB01-Az400_57](Evidencia/LAB01-Az400_57.png)
 
     > **Note**: Backlog items have a state that defines where they are relative to being completed. While you could open and edit the work item using the form, it’s easier to just drag cards on the board.
 
 19. On the **Board** tab of the **PUL-Web** panel, drag the first work item named **As a customer, I want to view new tutorials** from the **New** to **Approved** stage.
 
-    [![Move the WIT from "New" state to "Approved"](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/new2ap_v1.png)](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/new2ap_v1.png)
+    ![LAB01-Az400_58](Evidencia/LAB01-Az400_58.png)
 
     > **Note**: You can also expand work item cards to get to conveniently editable details.
 
@@ -212,17 +312,21 @@ Work items play a prominent role in Azure DevOps. Whether describing work to be 
 
 21. Click the down facing caret symbol to expand the work item card, select the **Unassigned** entry, and in the list of user accounts, select your account to assign the moved PBI to yourself.
 
+    ![LAB01-Az400_59](Evidencia/LAB01-Az400_59.png)
+
 22. On the **Board** tab of the **PUL-Web** panel, drag the second work item named **As a customer, I want to see tutorials I recently viewed** from the **New** to the **Committed** stage.
+
+    ![LAB01-Az400_60a](Evidencia/LAB01-Az400_60a.png)
 
 23. On the **Board** tab of the **PUL-Web** panel, drag the third work item named **As a customer, I want to request new tutorials** from the **New** to the **Done** stage.
 
-    [![WITs moved to the specified columns from previous steps](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/board_pbis_v1.png)](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/board_pbis_v1.png)
+    ![LAB01-Az400_61a](Evidencia/LAB01-Az400_61a.png)
 
     > **Note**: The task board is one view into the backlog. You can also use the tabular view.
 
 24. On the **Board** tab of the **PUL-Web** pane, at the top of the pane, click **View as Backlog** to display the tabular form.
 
-    [![In the "PUL-Web" board, click "View as Backlog"](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/view_backlog_v1.png)](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/view_backlog_v1.png)
+    ![LAB01-Az400_62a](Evidencia/LAB01-Az400_62a.png)
 
     > **Note**: You can use the plus sign directly under the **Backlog** tab label of the **PUL-Web** panel to view nested tasks under these work items.
 
@@ -230,7 +334,7 @@ Work items play a prominent role in Azure DevOps. Whether describing work to be 
 
 25. On the **Backlog** tab of the **PUL-Web** pane, in the upper left corner of the pane, click the second plus sign from the top, the one next to the first work item. This will display the **NEW TASK** panel.
 
-    [![Click on "+" to create Task](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/new_task_v1.png)](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/new_task_v1.png)
+    ![LAB01-Az400_63dd](Evidencia/LAB01-Az400_63dd.png)
 
 26. At the top of the **NEW TASK** panel, in the **Enter title** textbox, type **Add page for most recent tutorials**.
 
@@ -240,9 +344,21 @@ Work items play a prominent role in Azure DevOps. Whether describing work to be 
 
 29. On the **NEW TASK** panel, click **Save & Close**.
 
-    [![Fill in "New task" fields and click "Save and Close"](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/save_task_v1.png)](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/save_task_v1.png)
+    ![LAB01-Az400_64a](Evidencia/LAB01-Az400_64a.png)
+
+    ![LAB01-Az400_65](Evidencia/LAB01-Az400_65.png)
+
+    
 
 30. Repeat the last five steps to add another task named **Optimize data query for most recent tutorials**. Set its **Remaining Work** to **3** and its **Activity** to **Design**. Click **Save & Close** once completed.
+
+    ![LAB01-Az400_66](Evidencia/LAB01-Az400_66.png)
+
+    ![LAB01-Az400_67](Evidencia/LAB01-Az400_67.png)
+
+    ![LAB01-Az400_68](Evidencia/LAB01-Az400_68.png)
+
+    
 
 #### Task 3: Manage sprints and capacity
 
@@ -256,23 +372,35 @@ The sprint backlog should contain all the information the team needs to successf
 
 1. In the vertical navigational pane of the Azure DevOps portal, select the **Boards** icon and, in the list of the **Boards** items, select **Sprints**.
 
+   ![LAB01-Az400_69](Evidencia/LAB01-Az400_69.png)
+
 2. On the **Taskboard** tab of the **Sprints** view, in the toolbar, on the right hand side, select the **View options** symbol (directly to the left of the funnel icon) and, in the **View options** dropdown list, select the **Work details** entry.
 
-   [![In the "Boards">"Sprints" window, "PUL-Web" team, select "View options" icon and click on "Work details"](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/work_details_v1.png)](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/work_details_v1.png)
+   ![LAB01-Az400_70](Evidencia/LAB01-Az400_70.png)
 
    > **Note**: The current sprint has a pretty limited scope. There are two tasks in the **To do** stage. At this point, neither task has been assigned. Both show a numeric value to the right of **Unassigned** entry representing the remaining work estimate.
 
 3. In the rectangle representing the **Add page for most recent tutorial**, click the **Unassigned** entry and, in the list of user accounts, select your account to assign the task to yourself.
 
+   ![LAB01-Az400_71](Evidencia/LAB01-Az400_71.png)
+
+   ![LAB01-Az400_72](Evidencia/LAB01-Az400_72.png)
+
 4. Assign the **Add page** task to yourself.
+
+   ![LAB01-Az400_73](Evidencia/LAB01-Az400_73.png)
 
    > **Note**: This automatically updates the **Work By: Assigned To** section of the **Work details** pane.
 
 5. Select the **Capacity** tab of the **Sprints** view.
 
+   ![LAB01-Az400_74](Evidencia/LAB01-Az400_74.png)
+
    > **Note**: This view enables you to define what activities a user can take on and at what level of capacity.
 
 6. On the **Capacity** tab of the **Sprints** view, directly under the **Activity** label, in the **Unassigned** dropdown list, select **Development** and, in the **Capacity per day** textbox, type **1**.
+
+   ![LAB01-Az400_75](Evidencia/LAB01-Az400_75.png)
 
    > **Note**: This represents 1 hour of development work per day. Note that you can add additional activities per user in the case they do more than just development.
 
@@ -282,13 +410,17 @@ The sprint backlog should contain all the information the team needs to successf
 
 8. In the displayed panel, use the calendar view to set your vacation to span five work days during the current sprint (within the next three weeks) and, once completed, click **OK**.
 
-   [![Enter "Start", "End" and "Days Off" as mentioned](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/days_off_v1.png)](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/days_off_v1.png)
+   ![LAB01-Az400_76](Evidencia/LAB01-Az400_76.png)
 
 9. Back on the **Capacity** tab of the **Sprints** view, click **Save**.
 
+   ![LAB01-Az400_77](Evidencia/LAB01-Az400_77.png)
+
+   ![LAB01-Az400_78](Evidencia/LAB01-Az400_78.png)
+
 10. Select the **Taskboard** tab of the **Sprints** view.
 
-    [![Review the "Work details" section information, all timing bars should be green, no overwork](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/work_details_window_v1.png)](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/work_details_window_v1.png)
+    ![LAB01-Az400_79](Evidencia/LAB01-Az400_79.png)
 
     > **Note**: Note that the **Work details** panel has been updated to reflect your available bandwidth. The actual number displayed in the **Work details** panel might vary, but your total sprint capacity will be equal to the number of working days remaining till the end of the sprint, since you allocated 1 hour per day. Take a note of this value since you will use it in the upcoming steps.
 
@@ -296,7 +428,7 @@ The sprint backlog should contain all the information the team needs to successf
 
 11. On the **Taskboard** tab of the **Sprints** view, in the square box representing the **Add page for most recent tutorial**, set the estimated number of hours to match your total capacity for this sprint, which you identified in the previous step.
 
-    [![Review the "Work details" section information, team´s assigned time is bigger than capacity.](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/over_capacity_v1.png)](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/over_capacity_v1.png)
+    ![LAB01-Az400_81](Evidencia/LAB01-Az400_81.png)
 
     > **Note**: This automatically expands the **Development** and your personal capacities to their maximum. Since they’re large enough to cover the assigned tasks, they stay green. However, the overall **Team** capacity is exceeded due to the additional 3 hours required by the **Optimize data query for most recent tutorials** task.
 
@@ -304,7 +436,9 @@ The sprint backlog should contain all the information the team needs to successf
 
 12. On the **Taskboard** tab of the **Sprints** view, in the toolbar, on the right hand side, select the **View options** symbol (directly to the left of the funnel icon) and, in the **View options** dropdown list, select the **People** entry.
 
-    [![In the "Boards">"Sprints" window, "PUL-Web" team, select "View options" icon and click on "People"](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/people_v1.png)](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/people_v1.png)
+    ![LAB01-Az400_82](Evidencia/LAB01-Az400_82.png)
+
+    ![LAB01-Az400_83](Evidencia/LAB01-Az400_83.png)
 
     > **Note**: This adjusts your view such that you can review the progress of tasks by person instead of by backlog item.
 
@@ -312,21 +446,29 @@ The sprint backlog should contain all the information the team needs to successf
 
 13. Click the **Configure team settings** cogwheel icon (directly to the right of the funnel icon).
 
+    ![LAB01-Az400_84](Evidencia/LAB01-Az400_84.png)
+
 14. On the **Settings** panel, select the **Styles** tab, click **+ Styling rule**, under the **Rule name** label, in the **Name** textbox, type **Development**, and, in the **Card color** dropdown list, select the green rectangle.
+
+    ![LAB01-Az400_85](Evidencia/LAB01-Az400_85.png)
 
     > **Note**: This will color all cards green if they meet the rule criteria set directly below, in the **Rule criteria** section.
 
 15. In the **Rule criteria** section, in the **Field** dropdown list, select **Activity**, in the **Operator** dropdown list, select **=**, and, in the **Value** dropdown list, select **Development**.
 
-    [!["Settings" window, make sure all fields have mentioned information](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/styles_v1.png)](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/styles_v1.png)
+    ![LAB01-Az400_86](Evidencia/LAB01-Az400_86.png)
 
     > **Note**: This will set all cards assigned to **Development** activities green.
 
 16. On the **Settings** panel, select the **Backlogs** tab.
 
+    ![LAB01-Az400_87](Evidencia/LAB01-Az400_87.png)
+
     > **Note**: Entries on this tab allow you to set the levels available for navigation. Epics are not included by default, but you could change that.
 
 17. On the **Settings** panel, select the **Working days** tab.
+
+    ![LAB01-Az400_88](Evidencia/LAB01-Az400_88.png)
 
     > **Note**: Entries on this tab allow you to specify the **Working days** the team follows. This applies to capacity and burndown calculations.
 
@@ -335,6 +477,10 @@ The sprint backlog should contain all the information the team needs to successf
     > **Note**: Entries on this tab allow you to specify how bugs are presented on the board.
 
 19. On the **Settings** panel, click **Save and close** to save the styling rule.
+
+    ![LAB01-Az400_89](Evidencia/LAB01-Az400_89.png)
+
+    ![LAB01-Az400_90](Evidencia/LAB01-Az400_90.png)
 
     > **Note**: The task associated with **Development** is now green and very easy to identify.
 
@@ -348,15 +494,19 @@ To maximize a team’s ability to consistently deliver high quality software, Ka
 
 2. On the **Boards** panel, click the **Configure team settings** cogwheel icon (directly to the right of the funnel icon).
 
+   ![LAB01-Az400_91](Evidencia/LAB01-Az400_91.png)
+
    > **Note**: The team is emphasizing work done with data, so there is special attention paid to any task associated with accessing or storing data.
 
 3. On the **Settings** panel, select the **Tag colors** tab, click **+ Tag color**, in the **Tag** textbox, type **data** and leave the default color in place.
 
-   [!["Settings" window, "Tag colors", include "data" tag](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/tag_color_v1.png)](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/tag_color_v1.png)
+   ![LAB01-Az400_92](Evidencia/LAB01-Az400_92.png)
 
    > **Note**: Whenever a backlog item or bug is tagged with **data**, that tag will be highlighted.
 
 4. On the **Settings** panel, select the **Annotations** tab.
+
+   ![LAB01-Az400_93](Evidencia/LAB01-Az400_93.png)
 
    > **Note**: You can specify which **Annotations** you would like included on cards to make them easier to read and navigate. When an annotation is enabled, the child work items of that type are easily accessible by clicking the visualization on each card.
 
@@ -366,21 +516,35 @@ To maximize a team’s ability to consistently deliver high quality software, Ka
 
 6. On the **Settings** panel, click **Save and close** to save the styling rule.
 
+   ![LAB01-Az400_94](Evidencia/LAB01-Az400_94.png)
+
 7. On the **Board** tab of the **PUL-Web** panel, right-click the rectangle representing the **As a customer, I want to view new tutorials** backlog item and select **Open**.
+
+   ![LAB01-Az400_95](Evidencia/LAB01-Az400_95.png)
 
 8. On the **As a customer, I want to view new tutorials** panel, at the top of the panel, to the right of the **0 comments** entry, click **Add tag**.
 
+   ![LAB01-Az400_96](Evidencia/LAB01-Az400_96.png)
+
 9. In the resulting textbox, type **data** and press the **Enter** key.
+
+   ![LAB01-Az400_97](Evidencia/LAB01-Az400_97.png)
 
 10. Repeat the previous step to add the **ux** tag.
 
+    ![LAB01-Az400_98](Evidencia/LAB01-Az400_98.png)
+
+    ![LAB01-Az400_99](Evidencia/LAB01-Az400_99.png)
+
 11. On the **As a customer, I want to view new tutorials** panel, click **Save & Close**.
 
-    [![On the ""As a customer, I want to view new tutorials" panel, click "Save & Close"](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/tags_v1.png)](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/tags_v1.png)
+    ![LAB01-Az400_100](Evidencia/LAB01-Az400_100.png)
 
     > **Note**: The two tags are now visible on the card, with the **data** tag highlighted in yellow as configured.
 
 12. On the **Boards** panel, click the **Configure team settings** cogwheel icon (directly to the right of the funnel icon).
+
+    ![LAB01-Az400_101](Evidencia/LAB01-Az400_101.png)
 
 13. On the **Settings** panel, select the **Columns** tab.
 
@@ -388,27 +552,39 @@ To maximize a team’s ability to consistently deliver high quality software, Ka
 
 14. Click **+ Column**, under the **Column name** label, in the **Name** textbox, type **QA Approved** and, in the **WIP limit** textbox, type **1**
 
+    ![LAB01-Az400_102](Evidencia/LAB01-Az400_102.png)
+
     > **Note**: The Work in progress limit of 1 indicates that only one work item should be in this stage at a time. You would ordinarily set this higher, but there are only two work items to demonstrate the feature.
 
 15. On the **Settings** panel, on the **Columns** tab, drag and drop the newly created tab between **Committed** and **Done**.
 
 16. On the **Settings** panel, click **Save and close**.
 
-    [![On the "Settings" panel, clikc "Save & Close"](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/qa_column_v1.png)](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/qa_column_v1.png)
+    ![LAB01-Az400_103](Evidencia/LAB01-Az400_103.png)
 
     > **Note**: Verify that you now see the new stage in the workflow.
 
 17. Drag the **As a customer, I want to see tutorials I recently viewed** work item from the **Committed** stage into the **QA Approved** stage.
 
+    ![LAB01-Az400_104](Evidencia/LAB01-Az400_104.png)
+
+    ![LAB01-Az400_105](Evidencia/LAB01-Az400_105.png)
+
+    ![LAB01-Az400_106](Evidencia/LAB01-Az400_106.png)
+
 18. Drag the **As a customer, I want to view new tutorials** work item from the **Done** stage into the **QA Approved** stage.
 
-    [![The stage now exceeds its **WIP** limit and is colored red as a warning next to "QA Approved" column](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/wip_limit_v1.png)](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/wip_limit_v1.png)
+    ![LAB01-Az400_107](Evidencia/LAB01-Az400_107.png)
 
     > **Note**: The stage now exceeds its **WIP** limit and is colored red as a warning.
 
 19. Move the **As a customer, I want to see tutorials I recently viewed** backlog item back to **Committed**.
 
+    ![LAB01-Az400_108](Evidencia/LAB01-Az400_108.png)
+
 20. On the **Boards** panel, click the **Configure team settings** cogwheel icon (directly to the right of the funnel icon).
+
+    ![LAB01-Az400_109](Evidencia/LAB01-Az400_109.png)
 
 21. On the **Settings** panel, return to the **Columns** tab and select the **QA Approved** tab.
 
@@ -416,17 +592,25 @@ To maximize a team’s ability to consistently deliver high quality software, Ka
 
 22. On the **QA Approved** tab, enable the **Split column into doing and done** checkbox to create two separate columns.
 
+    ![LAB01-Az400_110](Evidencia/LAB01-Az400_110.png)
+
     > **Note**: As your team updates the status of work as it progresses from one stage to the next, it helps that they agree on what **done** means. By specifying the **Definition of done** criteria for each Kanban column, you help share the essential tasks to complete before moving an item into a downstream stage.
 
 23. On the **QA Approved** tab, at the bottom of the panel, in the **Definition of done** textbox, type **Passes \**all\** tests**.
 
 24. On the **Settings** panel, click **Save and close**.
 
-    [![On the "Settings" panel, review information and click "Save and close"](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/dd_v1.png)](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/dd_v1.png)
+    ![LAB01-Az400_111](Evidencia/LAB01-Az400_111.png)
 
     > **Note**: The **QA Approved** stage now has **Doing** and **Done** columns. You can also click the informational symbol (with letter **i** in a circle) next to the column header to read the **Definition of done**.
 
+    ![LAB01-Az400_112](Evidencia/LAB01-Az400_112.png)
+
+    ![LAB01-Az400_113](Evidencia/LAB01-Az400_113.png)
+
 25. On the **Boards** panel, click the **Configure team settings** cogwheel icon (directly to the right of the funnel icon).
+
+    ![LAB01-Az400_114](Evidencia/LAB01-Az400_114.png)
 
     > **Note**: Your Kanban board supports your ability to visualize the flow of work as it moves from new to done. When you add **swimlanes**, you can also visualize the status of work that supports different service-level classes. You can create a swimlane to represent any other dimension that supports your tracking needs.
 
@@ -436,13 +620,15 @@ To maximize a team’s ability to consistently deliver high quality software, Ka
 
 28. On the **Settings** panel, click **Save and close**.
 
-    [![On the "Settings" panel, review information and click "Save and close"](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/swimlane_v1.png)](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/swimlane_v1.png)
+    ![LAB01-Az400_115](Evidencia/LAB01-Az400_115.png)
 
 29. Back on the **Board** tab of the **Boards** panel, drag and drop the **Committed** work item onto the **QA Approved | Doing** stage of the **Expedite** swimlane so that it gets recognized as having priority when QA bandwidth becomes available.
 
+    ![LAB01-Az400_116](Evidencia/LAB01-Az400_116.png)
+
     > **Note**: If you would like to review a more sophisticated board with many more work items, on the **Board** tab of the **Boards** panel, in the upper left corner, select **PUL-Web** and, in the dropdown list of teams, select the **Agile Planning and Portfolio Management with Azure Boards Team**. This board provides a playground for you to experiment with and review the results.
-    >
-    > #### Task 5: Customize team process
+
+#### **Task 5: Customize team process**
 
 In this task we’ll create a custom Scrum-based process. The process will include a backlog item field designed to track to a proprietary PartsUnlimited ticket ID.
 
@@ -452,45 +638,63 @@ All processes are shared within the same organization. That is, one or more team
 
 1. On the Azure DevOps page, click the **Azure DevOps** logo in the top left corner to navigate to the account root page.
 
+   ![LAB01-Az400_117](Evidencia/LAB01-Az400_117.png)
+
 2. In the left bottom corner of the page, click **Organization settings**.
 
-   [![Click on the top left "Azure DevOps" icon first and click "Organization settings"](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/org_settings_v1.png)](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/org_settings_v1.png)
+   ![LAB01-Az400_118](Evidencia/LAB01-Az400_118.png)
+
+   ![LAB01-Az400_119](Evidencia/LAB01-Az400_119.png)
 
 3. In the **Organization Settings** vertical menu, in the **Boards** section, select **Process**.
 
+   ![LAB01-Az400_120](Evidencia/LAB01-Az400_120.png)
+
 4. On the **All processes** pane, to the right of the **Scrum** entry, select the ellipsis symbol and, in the dropdown menu, select **Create inherited process**.
 
-   [![In the "Organization settings" window, "Process" option, look for "Scrum" process and click on ellipsis and "Create inherited process"](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/inherited_v1.png)](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/inherited_v1.png)
+   ![LAB01-Az400_121](Evidencia/LAB01-Az400_121.png)
 
 5. In the **Create inherited process from Scrum** panel, in the **Process name (required)** textbox, type **Customized Scrum** and click **Create process**.
 
+   ![LAB01-Az400_122](Evidencia/LAB01-Az400_122.png)
+
 6. Back on the **All processes** pane, click the **Customized Scrum** entry.
+
+   ![LAB01-Az400_123](Evidencia/LAB01-Az400_123.png)
 
    > **Note**: You may need to refresh the browser for the new process to become visible.
 
 7. On the **All processes > Customized Scrum** pane, select **Product Backlog Item**.
 
-   [![On the "All processes > Customized Scrum" pane, select "Product Backlog Item"](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/pbi_field_name_v1.png)](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/pbi_field_name_v1.png)
+   ![LAB01-Az400_124](Evidencia/LAB01-Az400_124.png)
 
 8. On the **All processes > Customized Scrum > Product Backlog Item** pane, click **New field**.
 
+   ![LAB01-Az400_125](Evidencia/LAB01-Az400_125.png)
+
 9. On the **Add a field to Product Backlog Item** panel, on the **Definition** tab, in the **Create a field** section, in the **Name** textbox, type **PUL Ticket ID**.
 
-   [![On the "Add a field to Product Backlog Item" panel, on the "Definition" tab, in the "Create a field" section, in the "Name" textbox, type "PUL Ticket ID"](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/pbi_v1.png)](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/pbi_v1.png)
+   ![LAB01-Az400_126](Evidencia/LAB01-Az400_126.png)
 
 10. On the **Add a field to Product Backlog Item** panel, click **Layout**.
 
+    ![LAB01-Az400_127](Evidencia/LAB01-Az400_127.png)
+
 11. On the **Add a field to Product Backlog Item** panel, on the **Layout** tab, in the **Label** textbox, type **Ticket ID**, select the **Create a new group** option, in the **Group** textbox, type **PartsUnlimited**, and click **Add field**.
 
-    [![On the "Add a field to Product Backlog Item" panel, on the "Layout" tab make sure the information has been included and click "Add Field"](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/pbi_field_layout_v1.png)](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/pbi_field_layout_v1.png)
+    ![LAB01-Az400_128](Evidencia/LAB01-Az400_128.png)
 
     > **Note**: Now that the customized process has been configured, let’s switch to the Agile Planning and Portfolio Management with Azure Boards project to use it.
 
 12. Return to the **All processes** root using the breadcrumb path at the top of the **All processes > Customized Scrum > Product Backlog Item** pane.
 
+    ![LAB01-Az400_129](Evidencia/LAB01-Az400_129.png)
+
 13. On the **All processes** pane, select the **Scrum** entry.
 
-    [![On the "All processes" pane, select the "Scrum" entry.](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/scrum_v1.png)](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/scrum_v1.png)
+    ![LAB01-Az400_130](Evidencia/LAB01-Az400_130.png)
+
+    ![LAB01-Az400_131](Evidencia/LAB01-Az400_131.png)
 
     > **Note**: Our current project uses **Scrum**.
 
@@ -498,21 +702,33 @@ All processes are shared within the same organization. That is, one or more team
 
 15. In the list of projects, in the row containing the **Agile Planning and Portfolio Management with Azure Boards** entry, select the ellipsis symbol and then select **Change process**.
 
+    ![LAB01-Az400_132](Evidencia/LAB01-Az400_132.png)
+
 16. On the **Change the project process** pane, in the **Select a target process** dropdown list, select the **Customized Scrum** process, click **Save** and then click **Close**.
 
-    [![On the "Change the project process" pane, in the "Select a target process" dropdown list, select the "Customized Scrum" process, click "Save" and then click "Close"](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/custom_scrum_v1.png)](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/custom_scrum_v1.png)
+    ![LAB01-Az400_133](Evidencia/LAB01-Az400_133.png)
 
 17. Click the **Azure DevOps** logo in the top left corner to return to the account root page.
 
+    ![LAB01-Az400_134](Evidencia/LAB01-Az400_134.png)
+
 18. On the **Projects** tab, select the entry representing the **Agile Planning and Portfolio Management with Azure Boards** project.
+
+    ![LAB01-Az400_135](Evidencia/LAB01-Az400_135.png)
+
+    ![LAB01-Az400_136](Evidencia/LAB01-Az400_136.png)
+
+    
 
 19. In the vertical menu on the left side of the **Agile Planning and Portfolio Management with Azure Boards** page, select **Boards** and ensure that the **Work Items** pane is displayed.
 
 20. In the list of work items, click the first backlog item.
 
+    ![LAB01-Az400_137](Evidencia/LAB01-Az400_137.png)
+
 21. Verify that you now have the **Ticket ID** field under the **PartsUnlimited** group, which was defined during the process customization. You can treat this like any other text field.
 
-    [![Verify that you now have the "Ticket ID" field under the "PartsUnlimited" group, which was defined during the process customization. You can treat this like any other text field.](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/verify_v1.png)](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/verify_v1.png)
+    ![LAB01-Az400_138](Evidencia/LAB01-Az400_138.png)
 
     > **Note**: Once the work item is saved, Azure DevOps will also save the new custom information so that it will be available for queries and through the rest of Azure DevOps.
 
@@ -526,31 +742,47 @@ Dashboards allow teams to visualize status and monitor progress across the proje
 
 2. If necessary, on the **Dashboards** pane, in the upper left corner, in the **Agile Planning and Portfolio Management with Azure Boards Team** section, select **Agile Planning and Portfolio Management with Azure Boards Team - Overview** and review the existing dashboard.
 
-   [![If necessary, on the "Dashboards" pane, in the upper left corner, in the "Agile Planning and Portfolio Management with Azure Boards Team" section, select "Agile Planning and Portfolio Management with Azure Boards Team - Overview"](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/dashboard_v1.png)](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/dashboard_v1.png)
+   ![LAB01-Az400_139](Evidencia/LAB01-Az400_139.png)
 
 3. On the **Dashboards** pane, in the upper left corner, in the **Agile Planning and Portfolio Management with Azure Boards Team** section, select **+ New dashboard**.
 
-   [![On the "Dashboards" pane, in the upper left corner, in the "Agile Planning and Portfolio Management with Azure Boards Team" section, select "+ New dashboard"](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/new_dashboard_v1.png)](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/new_dashboard_v1.png)
+   ![LAB01-Az400_140](Evidencia/LAB01-Az400_140.png)
+
+   ![LAB01-Az400_141](Evidencia/LAB01-Az400_141.png)
 
 4. On the **Create a dashboard** pane, in the **Name** textbox, type **Product training**, in the **Team** dropdown list, select the **PUL-Web** team, and click **Create**.
 
-   [![On the "Create a dashboard" pane, in the "Name" textbox, type "Product training", in the "Team" dropdown list, select the "PUL-Web" team, and click "Create"](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/create_dash_v1.png)](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/create_dash_v1.png)
+   ![LAB01-Az400_142](Evidencia/LAB01-Az400_142.png)
 
 5. On the new dashboard pane, click **Add a widget**.
 
+   ![LAB01-Az400_143](Evidencia/LAB01-Az400_143.png)
+
 6. On the **Add Widget** panel, in the **Search** textbox, type **sprint** to find existing widgets that focus on sprints. In the list of results, select **Sprint Overview** and click **Add**.
 
+   ![LAB01-Az400_144](Evidencia/LAB01-Az400_144.png)
+
+   ![LAB01-Az400_145](Evidencia/LAB01-Az400_145.png)
+
 7. In the rectangle representing the newly added widget, click the **Settings** cogwheel icon and review the **Configuration** pane.
+
+   ![LAB01-Az400_146](Evidencia/LAB01-Az400_146.png)
 
    > **Note**: The customization level will vary by widget.
 
 8. On the **Configuration** pane, click **Close** without making any changes.
 
+   ![LAB01-Az400_147](Evidencia/LAB01-Az400_147.png)
+
 9. Back on the **Add Widget** pane, in the **Search** textbox, type **sprint** again to find existing widgets that focus on sprints. In the list of results, select **Sprint Capacity** and click **Add**.
 
 10. In the **Dashboard** view, at the top of the pane, click **Done Editing**.
 
-    [![Review finished dashboard should include both widgets](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/finished_dashboard_v1.png)](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/finished_dashboard_v1.png)
+    ![LAB01-Az400_148](Evidencia/LAB01-Az400_148.png)
+
+    ![LAB01-Az400_149](Evidencia/LAB01-Az400_149.png)
+
+    
 
     > **Note**: You can now review two important aspects of your current sprint on your custom dashboard.
 
@@ -560,26 +792,61 @@ Dashboards allow teams to visualize status and monitor progress across the proje
 
 12. On the **Queries** pane, click **+ New query**.
 
+    ![LAB01-Az400_150](Evidencia/LAB01-Az400_150.png)
+
 13. On the **Editor** tab of **Queries > My Queries** pane, in the **Value** dropdown list of the **Work Item Type** row, select **Task**.
+
+    ![LAB01-Az400_151](Evidencia/LAB01-Az400_151.png)
 
 14. On the **Editor** tab of **Queries > My Queries** pane, in the second row, in the **Field** column, select **Area Path** and, in the corresponding **Value** dropdown list, select **Agile Planning and Portfolio Management with Azure Boards\PUL-Web**.
 
+    ![LAB01-Az400_152](Evidencia/LAB01-Az400_152.png)
+
+    ![LAB01-Az400_153](Evidencia/LAB01-Az400_153.png)
+
+    ![LAB01-Az400_154](Evidencia/LAB01-Az400_154.png)
+
 15. Click **Save query**.
 
-    [![On the "Editor" tab of "Queries > My Queries" pane, in the second row, in the "Field" column, select "Area Path" and, in the corresponding "Value" dropdown list, select "Agile Planning and Portfolio Management with Azure Boards\PUL-Web"](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/query_v1.png)](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/query_v1.png)
+    ![LAB01-Az400_155](Evidencia/LAB01-Az400_155.png)
 
 16. In the **New query** panel, in the **Enter name** textbox, type **Web tasks**, in the **Folder** dropdown list, select to **Shared Queries**, and click **OK**.
 
+    ![LAB01-Az400_156](Evidencia/LAB01-Az400_156.png)
+
+    ![LAB01-Az400_157](Evidencia/LAB01-Az400_157.png)
+
 17. Select the **Charts** tab and click **+ New chart**.
+
+    ![LAB01-Az400_158](Evidencia/LAB01-Az400_158.png)
 
 18. On the **Configure Chart** panel, in the **Name** textbox, type **Web tasks - By assignment**, in the **Group by** dropdown list, select **Assigned To**, and click **OK** to save the changes.
 
-    [![On the "Configure Chart" panel, in the "Name" textbox, type "Web tasks - By assignment", in the "Group by" dropdown list, select "Assigned To", and click "OK" to save the changes](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/chart_v1.png)](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/chart_v1.png)
+    ![LAB01-Az400_159](Evidencia/LAB01-Az400_159.png)
+
+    ![LAB01-Az400_160](Evidencia/LAB01-Az400_160.png)
+
+    ![LAB01-Az400_161](Evidencia/LAB01-Az400_161.png)
+
+    ![LAB01-Az400_162](Evidencia/LAB01-Az400_162.png)
 
     > **Note**: You can now add this chart to a dashboard.
-    >
-    > #### Review
+
+![LAB01-Az400_163](Evidencia/LAB01-Az400_163.png)
+
+![LAB01-Az400_164](Evidencia/LAB01-Az400_164.png)
+
+![LAB01-Az400_165](Evidencia/LAB01-Az400_165.png)
+
+![LAB01-Az400_166](Evidencia/LAB01-Az400_166.png)
+
+![LAB01-Az400_167](Evidencia/LAB01-Az400_167.png)
+
+![LAB01-Az400_168](Evidencia/LAB01-Az400_168.png)
+
+#### Review
 
 In this lab you used Azure Boards to perform a number of common agile planning and portfolio management tasks, including management of teams, areas, iterations, work items, sprints and capacity, customizing Kanban boards, defining dashboards, and customizing team processes.
 
  [MicrosoftLearning/AZ400-DesigningandImplementingMicrosoftDevOp](https://github.com/MicrosoftLearning/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions)
+

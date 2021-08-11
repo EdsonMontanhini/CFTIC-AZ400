@@ -64,7 +64,25 @@ In this task, you will use Visual Studio Code to create a Resource Manager templ
 
 1. From your lab computer, start Visual Studio Code, in Visual Studio Code, click the **File** top level menu, in the dropdown menu, select **Preferences**, in the cascading menu, select **Extensions**, in the **Search Extensions** textbox, type **Azure Resource Manager (ARM) Tools**, select the corresponding search result, and click **Install** to install the Azure Resource Manager Tools
 
+   ![LAB13-Az400_01](Evidencia/LAB13-Az400_01.png)
+
 2. In a web browser, connect to **https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.compute/vm-simple-windows/azuredeploy.json**. Click on **Raw** option for the file. Copy the contents of the code window and paste it into Visual Studio Code editor.
+
+   ![LAB13-Az400_02](Evidencia/LAB13-Az400_02.png)
+
+   ![LAB13-Az400_03](Evidencia/LAB13-Az400_03.png)
+
+   ![LAB13-Az400_03a](Evidencia/LAB13-Az400_03a.png)
+
+   ![LAB13-Az400_03b](Evidencia/LAB13-Az400_03b.png)
+
+   ![LAB13-Az400_03c](Evidencia/LAB13-Az400_03c.png)
+
+   ![LAB13-Az400_03d](Evidencia/LAB13-Az400_03d.png)
+
+   ![LAB13-Az400_03e](Evidencia/LAB13-Az400_03e.png)
+
+   ![LAB13-Az400_03f](Evidencia/LAB13-Az400_03f.png)
 
    > **Note**: Rather than creating a template from scratch we will use one of the [Azure Quickstart Templates](https://azure.microsoft.com/en-us/resources/templates/) named **Deploy a simple Windows template VM**. The templates are downloadable the templates from GitHub - [vm-simple-windows](https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.compute/vm-simple-windows).
 
@@ -73,7 +91,19 @@ In this task, you will use Visual Studio Code to create a Resource Manager templ
    - **C:\templates**
    - **C:\templates\storage**
 
+   ![LAB13-Az400_04](Evidencia/LAB13-Az400_04.png)
+
+   ![LAB13-Az400_04a](Evidencia/LAB13-Az400_04a.png)
+
 4. Switch back to Visual Studio Code window with our azuredeploy.json template, click the **File** top level menu, in the dropdown menu, click **Save as**, and save the template as **azuredeploy.json** in the newly created local folder **C:\templates**.
+
+   ![LAB13-Az400_05](Evidencia/LAB13-Az400_05.png)
+
+   ![LAB13-Az400_06](Evidencia/LAB13-Az400_06.png)
+
+   ![LAB13-Az400_07](Evidencia/LAB13-Az400_07.png)
+
+   
 
 5. Review the template to get a better understanding of its structure. There are five resource types included in the template:
 
@@ -83,7 +113,23 @@ In this task, you will use Visual Studio Code to create a Resource Manager templ
    - Microsoft.Network/networkInterfaces
    - Microsoft.Compute/virtualMachines
 
+   ![LAB13-Az400_08](Evidencia/LAB13-Az400_08.png)
+
+   ![LAB13-Az400_09](Evidencia/LAB13-Az400_09.png)
+
+   ![LAB13-Az400_10](Evidencia/LAB13-Az400_10.png)
+
 6. In Visual Studio Code, save the file again, but this time choose **C:\templates\storage** as the destination and **storage.json** as the file name.
+
+   ![LAB13-Az400_11](Evidencia/LAB13-Az400_11.png)
+
+   ![LAB13-Az400_12](Evidencia/LAB13-Az400_12.png)
+
+   ![LAB13-Az400_14](Evidencia/LAB13-Az400_14.png)
+
+   ![LAB13-Az400_15](Evidencia/LAB13-Az400_15.png)
+
+   ![LAB13-Az400_16](Evidencia/LAB13-Az400_16.png)
 
    > **Note**: We now have two identical JSON files: **C:\templates\azuredeploy.json** and **C:\templates\storage\storage.json**.
 
@@ -110,6 +156,18 @@ In this task, you will modify the templates you saved in the previous task such 
    ],
    ```
 
+   ![LAB13-Az400_17](Evidencia/LAB13-Az400_17.png)
+
+   ![LAB13-Az400_18](Evidencia/LAB13-Az400_18.png)
+
+   ![LAB13-Az400_19](Evidencia/LAB13-Az400_19.png)
+
+   ![LAB13-Az400_20](Evidencia/LAB13-Az400_20.png)
+
+   ![LAB13-Az400_21](Evidencia/LAB13-Az400_21.png)
+
+   ![LAB13-Az400_22](Evidencia/LAB13-Az400_22.png)
+
 2. Rename the name element of storageAccount from variables to parameters
 
    CodeCopy
@@ -130,6 +188,8 @@ In this task, you will modify the templates you saved in the previous task such 
    ],
    ```
 
+   ![LAB13-Az400_24](Evidencia/LAB13-Az400_24.png)
+
 3. Next, remove the entire variables section and all variable definitions:
 
    CodeCopy
@@ -145,6 +205,12 @@ In this task, you will modify the templates you saved in the previous task such 
      "networkSecurityGroupName": "default-NSG"
    },
    ```
+
+   ![LAB13-Az400_25](Evidencia/LAB13-Az400_25.png)
+
+   ![LAB13-Az400_26](Evidencia/LAB13-Az400_26.png)
+
+   
 
 4. Next, remove all parameter values except location and add the following parameter code, resulting in the following outcome:
 
@@ -168,6 +234,24 @@ In this task, you will modify the templates you saved in the previous task such 
    },
    ```
 
+   ![LAB13-Az400_27](Evidencia/LAB13-Az400_27.png)
+
+   ![LAB13-Az400_28](Evidencia/LAB13-Az400_28.png)
+
+   ![LAB13-Az400_29](Evidencia/LAB13-Az400_29.png)
+
+   ![LAB13-Az400_30](Evidencia/LAB13-Az400_30.png)
+
+   ![LAB13-Az400_31](Evidencia/LAB13-Az400_31.png)
+
+   ![LAB13-Az400_32](Evidencia/LAB13-Az400_32.png)
+
+   ![LAB13-Az400_33](Evidencia/LAB13-Az400_33.png)
+
+   ![LAB13-Az400_34](Evidencia/LAB13-Az400_34.png)
+
+   ![LAB13-Az400_35](Evidencia/LAB13-Az400_35.png)
+
 5. Next, update the output section to define a storageURI output value. The storageUri value is required by the virtual machine resource definition in the main template. You pass the value back to the main template as an output value. Modify the output so it looks like the below.
 
    CodeCopy
@@ -180,6 +264,10 @@ In this task, you will modify the templates you saved in the previous task such 
      }
    }
    ```
+
+   ![LAB13-Az400_36](Evidencia/LAB13-Az400_36.png)
+
+   ![LAB13-Az400_37](Evidencia/LAB13-Az400_37.png)
 
 6. Last, make sure schema version is 2019-04-01 (ignore warnings/errors if shown in VS Code) :
 
@@ -196,6 +284,8 @@ In this task, you will modify the templates you saved in the previous task such 
                 "description": "Azure Storage account name."
               }
    ```
+
+   ![LAB13-Az400_38](Evidencia/LAB13-Az400_38.png)
 
 7. Save the storage.json template. The linked storage template should now look as follows:
 
@@ -252,6 +342,10 @@ In this task, you will modify the templates you saved in the previous task such 
     }
    ```
 
+![LAB13-Az400_39](Evidencia/LAB13-Az400_39.png)
+
+![LAB13-Az400_40](Evidencia/LAB13-Az400_40.png)
+
 #### Task 3: Upload Linked Template to Azure Blob Storage and generate SAS token
 
 In this task, you will upload the linked template you created in the previous task to Azure Blob Storage and generate SAS token to provide access to it during subsequent deployments.
@@ -268,6 +362,16 @@ In this task, you will upload the linked template you created in the previous ta
 
    > **Note**: If this is the first time you are starting **Cloud Shell** and you are presented with the **You have no storage mounted** message, select the subscription you are using in this lab, and select **Create storage**.
 
+   ![LAB13-Az400_41](Evidencia/LAB13-Az400_41.png)
+
+   ![LAB13-Az400_42](Evidencia/LAB13-Az400_42.png)
+
+   ![LAB13-Az400_43](Evidencia/LAB13-Az400_43.png)
+
+   ![LAB13-Az400_47](Evidencia/LAB13-Az400_47.png)
+
+   ![LAB13-Az400_48](Evidencia/LAB13-Az400_48.png)
+
 4. From a **PowerShell** session in the Cloud Shell pane, run the following to create a blob storage container, upload the template file you created in the previous task, and generate a SAS token that you will reference in the main template to access the linked template.
 
 5. First, copy and paste the following lines of code to set a value for the Azure region you want to deploy to. The command will wait for your input as shown in the prompt.
@@ -278,6 +382,8 @@ In this task, you will upload the linked template you created in the previous ta
    # Provide the name of the closest Azure region in which you can provision Azure VMs
    $location = Read-Host -Prompt 'Enter the name of Azure region (i.e. centralus)'
    ```
+
+   ![LAB13-Az400_49](Evidencia/LAB13-Az400_49.png)
 
 6. Second, copy and paste the following code into the same Cloud Shell session to create a blob storage container:
 
@@ -311,7 +417,17 @@ In this task, you will upload the linked template you created in the previous ta
     New-AzureStorageContainer -Name $containerName -Context $context
    ```
 
+   ![LAB13-Az400_50](Evidencia/LAB13-Az400_50.png)
+
+   ![LAB13-Az400_51](Evidencia/LAB13-Az400_51.png)
+
 7. In the Cloud Shell pane, click the **Upload/download files** icon and, in the dropdown menu, click **Upload**. In the **Open** dialog box, navigate to and select **C:\templates\storage\storage.json** and click **Open**.
+
+   ![LAB13-Az400_52](Evidencia/LAB13-Az400_52.png)
+
+   ![LAB13-Az400_53](Evidencia/LAB13-Az400_53.png)
+
+   ![LAB13-Az400_54](Evidencia/LAB13-Az400_54.png)
 
    CodeCopy
 
@@ -340,6 +456,12 @@ In this task, you will upload the linked template you created in the previous ta
 
 > **Note**: The output values should resemble the following:
 
+![LAB13-Az400_55](Evidencia/LAB13-Az400_55.png)
+
+![LAB13-Az400_56](Evidencia/LAB13-Az400_56.png)
+
+
+
 CodeCopy
 
 ```
@@ -348,6 +470,18 @@ CodeCopy
 ```
 
 > **Note**: For scenarios requiring increased level of security, you could generate a SAS token dynamically during main template deployment and assign the SAS token a shorter validity period.
+
+![LAB13-Az400_57](Evidencia/LAB13-Az400_57.png)
+
+![LAB13-Az400_58](Evidencia/LAB13-Az400_58.png)
+
+![LAB13-Az400_59](Evidencia/LAB13-Az400_59.png)
+
+![LAB13-Az400_60](Evidencia/LAB13-Az400_60.png)
+
+![0](Evidencia/LAB13-Az400_60a.png)
+
+![LAB13-Az400_60b](Evidencia/LAB13-Az400_60b.png)
 
 1. Close the Cloud Shell pane.
 
@@ -376,6 +510,8 @@ In this task, you will modify the main template to reference the linked template
    },
    ```
 
+   ![LAB13-Az400_61](Evidencia/LAB13-Az400_61.png)
+
 3. Next, add the following code directly in the same location where the newly deleted storage resource element was:
 
    > **Note**: Make sure to replace the `<linked_template_URI_with_SAS_token>` placeholder with its actual value that you recorded at the end of the previous task.
@@ -400,6 +536,12 @@ In this task, you will modify the main template to reference the linked template
    },
    ```
 
+   ![LAB13-Az400_62](Evidencia/LAB13-Az400_62.png)
+
+   ![LAB13-Az400_63](Evidencia/LAB13-Az400_63.png)
+
+   ![LAB13-Az400_64](Evidencia/LAB13-Az400_64.png)
+
 4. Review the following details in the main template:
 
    - A Microsoft.Resources/deployments resource in the main template is used to link to another template.
@@ -409,6 +551,10 @@ In this task, you will modify the main template to reference the linked template
    - Use parameters to pass values from the main template to the linked template.
 
 5. Save the template.
+
+   ![LAB13-Az400_65](Evidencia/LAB13-Az400_65.png)
+
+   ![LAB13-Az400_66](Evidencia/LAB13-Az400_66.png)
 
 #### Task 5: Modify main template to update dependencies
 
@@ -427,6 +573,8 @@ In this task, you will modify the main template to account for remaining depende
    ]
    ```
 
+   ![LAB13-Az400_67](Evidencia/LAB13-Az400_67.png)
+
    with
 
    CodeCopy
@@ -438,6 +586,8 @@ In this task, you will modify the main template to account for remaining depende
      "linkedTemplate"
    ]
    ```
+
+   ![LAB13-Az400_68](Evidencia/LAB13-Az400_68.png)
 
 2. In the resources section under the **Microsoft.Compute/virtualMachines** element, reconfigure the **properties/diagnosticsProfile/bootDiagnostics/storageUri** element to reflect the output value you defined in the linked storage template by replacing:
 
@@ -451,6 +601,8 @@ In this task, you will modify the main template to account for remaining depende
      }
    ```
 
+   ![LAB13-Az400_69](Evidencia/LAB13-Az400_69.png)
+
    with
 
    CodeCopy
@@ -463,7 +615,13 @@ In this task, you will modify the main template to account for remaining depende
      }
    ```
 
+   ![LAB13-Az400_70](Evidencia/LAB13-Az400_70.png)
+
 3. Save the updated main deployment template.
+
+   ![LAB13-Az400_71](Evidencia/LAB13-Az400_71.png)
+
+   ![LAB13-Az400_71a](Evidencia/LAB13-Az400_71a.png)
 
 #### Task 6: Deploy resources to Azure by using linked templates
 
@@ -471,15 +629,7 @@ In this task, you will modify the main template to account for remaining depende
 
 > **Note**: To use Azure Cloud Shell, you will upload the main deployment template, azuredeploy.json into your Cloud Shell’s home directory. Alternatively, you could also upload it to Azure Blob Storage, just as you did upload the linked template, and reference it by using its URI rather than local file system path.
 
-1. On the lab computer, in the web browser displaying the Azure Portal, click the
-
-    
-
-   Cloud Shell
-
-    
-
-   icon to open Cloud Shell.
+1. On the lab computer, in the web browser displaying the Azure Portal, click the Cloud Shell icon to open Cloud Shell.
 
    > **Note**: If you have the PowerShell session from earlier in this exercise still active, you can use this without switching to Bash (next step). The following steps can be run in both a PowerShell and Bash session of Cloud Shell. If you are opening a new Cloud Shell session, follow the instructions.
 
@@ -487,7 +637,13 @@ In this task, you will modify the main template to account for remaining depende
 
 3. In the Cloud Shell pane, click the **Upload/download files** icon and, in the dropdown menu, click **Upload**.
 
+   ![LAB13-Az400_72](Evidencia/LAB13-Az400_72.png)
+
 4. In the **Open** dialog box, navigate to and select **C:\templates\azuredeploy.json** and click **Open**.
+
+   ![LAB13-Az400_73](Evidencia/LAB13-Az400_73.png)
+
+   ![LAB13-Az400_74](Evidencia/LAB13-Az400_74.png)
 
 5. From a **Bash** session in the Cloud Shell pane, run the following to perform a deployment by using a newly uploaded template:
 
@@ -500,6 +656,64 @@ In this task, you will modify the main template to account for remaining depende
 6. When prompted to provide the value for ‘adminUsername’, type **Student** and press the **Enter** key.
 
 7. When prompted to provide the value for ‘adminPassword’, type **Pa55w.rd1234** and press the **Enter** key. (Password typing will not be shown)
+
+   ![LAB13-Az400_75](Evidencia/LAB13-Az400_75.png)
+
+   ![LAB13-Az400_76](Evidencia/LAB13-Az400_76.png)
+
+   ![LAB13-Az400_77](Evidencia/LAB13-Az400_77.png)
+
+   ![LAB13-Az400_78](Evidencia/LAB13-Az400_78.png)
+
+   ![LAB13-Az400_78a](Evidencia/LAB13-Az400_78a.png)
+
+   ![LAB13-Az400_78aa](Evidencia/LAB13-Az400_78aa.png)
+
+   ![LAB13-Az400_78aaa](Evidencia/LAB13-Az400_78aaa.png)
+
+   ![LAB13-Az400_78b](Evidencia/LAB13-Az400_78b.png)
+
+   ![LAB13-Az400_78a0](Evidencia/LAB13-Az400_78a0.png)
+
+   ![LAB13-Az400_78d](Evidencia/LAB13-Az400_78d.png)
+
+   
+
+   ![LAB13-Az400_78d0](Evidencia/LAB13-Az400_78d0.png)
+
+   
+
+   ![LAB13-Az400_78d1](Evidencia/LAB13-Az400_78d1.png)
+
+   
+
+   ![LAB13-Az400_78d2](Evidencia/LAB13-Az400_78d2.png)
+
+   There is a problem with the credentials, it is not allowed to access with the password
+
+   I check the IP and try to connect to the machine through it.
+
+   ![LAB13-Az400_78c0](Evidencia/LAB13-Az400_78c0.png)
+
+   ![LAB13-Az400_78ca](Evidencia/LAB13-Az400_78ca.png)
+
+   I try to solve the problem restarting the virtual machine
+
+   ![LAB13-Az400_78d3](Evidencia/LAB13-Az400_78d3.png)
+
+   Since the access keeps failing, I reset the password with the same value
+
+   ![LAB13-Az400_78d4](Evidencia/LAB13-Az400_78d4.png)
+
+   ![LAB13-Az400_78da](Evidencia/LAB13-Az400_78da.png)
+
+   ![LAB13-Az400_78db](Evidencia/LAB13-Az400_78db.png)
+
+   ![LAB13-Az400_78dc](Evidencia/LAB13-Az400_78dc.png)
+
+   ![LAB13-Az400_78dca](Evidencia/LAB13-Az400_78dca.png)
+
+   
 
 8. If you receive errors when running the above command to deploy the template, try the following:
 
@@ -530,6 +744,8 @@ In this task, you will use Azure Cloud Shell to remove the Azure resources provi
    az group list --query "[?starts_with(name,'az400m13l01-RG')].name" --output tsv
    ```
 
+   ![LAB13-Az400_79](Evidencia/LAB13-Az400_79.png)
+
 3. Delete all resource groups you created throughout the labs of this module by running the following command:
 
    CodeCopy
@@ -539,6 +755,12 @@ In this task, you will use Azure Cloud Shell to remove the Azure resources provi
    ```
 
    > **Note**: The command executes asynchronously (as determined by the –nowait parameter), so while you will be able to run another Azure CLI command immediately afterwards within the same Bash session, it will take a few minutes before the resource groups are actually removed.
+
+![LAB13-Az400_80](Evidencia/LAB13-Az400_80.png)
+
+![LAB13-Az400_81](Evidencia/LAB13-Az400_81.png)
+
+![LAB13-Az400_82](Evidencia/LAB13-Az400_82.png)
 
 ## Review
 

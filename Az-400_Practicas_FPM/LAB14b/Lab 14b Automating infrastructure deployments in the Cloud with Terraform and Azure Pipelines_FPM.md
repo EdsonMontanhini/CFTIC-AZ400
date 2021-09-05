@@ -61,17 +61,33 @@ In this task, you will use Azure DevOps Demo Generator to generate a new project
 
 2. Click **Sign in** and sign in using the Microsoft account associated with your Azure DevOps subscription.
 
+   ![LAB14b-Az400_01](Evidencia/LAB14b-Az400_01.png)
+
 3. If required, on the **Azure DevOps Demo Generator** page, click **Accept** to accept the permission requests for accessing your Azure DevOps subscription.
 
 4. On the **Create New Project** page, in the **New Project Name** textbox, type **Automating infrastructure deployments with Terraform**, in the **Select organization** dropdown list, select your Azure DevOps organization, and then click **Choose template**.
 
+   ![LAB14b-Az400_02](Evidencia/LAB14b-Az400_02.png)
+
 5. In the list of templates, in the toolbar, click **DevOps Labs**, select the **Terraform** template and click **Select Template**.
 
+   ![LAB14b-Az400_03](Evidencia/LAB14b-Az400_03.png)
+
 6. Back on the **Create New Project** page, if prompted to install a missing extension, select the checkbox below the **Replace Tokens** and **Terraform** labels and click **Create Project**.
+
+   ![LAB14b-Az400_04](Evidencia/LAB14b-Az400_04.png)
+
+   ![LAB14b-Az400_05](Evidencia/LAB14b-Az400_05.png)
+
+   ![LAB14b-Az400_06](Evidencia/LAB14b-Az400_06.png)
 
    > **Note**: Wait for the process to complete. This should take about 2 minutes. In case the process fails, navigate to your DevOps organization, delete the project, and try again.
 
 7. On the **Create New Project** page, click **Navigate to project**.
+
+   ![LAB14b-Az400_07](Evidencia/LAB14b-Az400_07.png)
+
+   ![LAB14b-Az400_08](Evidencia/LAB14b-Az400_08.png)
 
 ### Exercise 1: Automate infrastructure deployments in the cloud with Terraform and Azure Pipelines
 
@@ -83,13 +99,29 @@ In this task, you will examine the use of Terraform in provisioning Azure Resour
 
 1. On your lab computer, in the web browser window displaying the Azure DevOps portal with the **Automating infrastructure deployments with Terraform** project open, in the vertical menu bar at the far left of the Azure DevOps portal, click **Repos**.
 
+   ![LAB14b-Az400_09](Evidencia/LAB14b-Az400_09.png)
+
+   ![LAB14b-Az400_10](Evidencia/LAB14b-Az400_10.png)
+
+   ![LAB14b-Az400_11](Evidencia/LAB14b-Az400_11.png)
+
+   ![LAB14b-Az400_12](Evidencia/LAB14b-Az400_12.png)
+
 2. On the **Files** pane, click the facing-down caret next to the **master** entry at the top and, in the dropdown list of branches, click the entry representing the **terraform** branch.
+
+   ![LAB14b-Az400_13](Evidencia/LAB14b-Az400_13.png)
 
    > **Note**: Make sure that you are now on the **terraform** branch and **Terraform** folder appears within the content of the repo.
 
 3. In the folder hierarchy of the **Terraform** repo, expand the **Terraform** folder and click **webapp.tf**.
 
+   ![LAB14b-Az400_14](Evidencia/LAB14b-Az400_14.png)
+
+   
+
 4. Review the content of the **webapp.tf** file.
+
+   ![LAB14b-Az400_15](Evidencia/LAB14b-Az400_15.png)
 
    > **Note**: **webapp.tf** is a terraform configuration file. Terraform uses its own file format, called HCL (Hashicorp Configuration Language), similar to YAML.
 
@@ -103,17 +135,41 @@ In this task, you will build your application and publish the required files as 
 
 2. On the **Pipelines** pane, click **Terraform-CI** to select it and, on the **Terraform-CI** pane, click **Edit**.
 
+   ![LAB14b-Az400_16](Evidencia/LAB14b-Az400_16.png)
+
    > **Note**: This CI pipeline has tasks to compile the .NET Core project. The DotNet tasks in the pipeline will restore dependencies, build, test and publish the build output into a zip file (package), which can be deployed to a web application. In addition to the application build, we need to publish terraform files to build artifacts to make them available in CD pipeline. This is the reason for the **Copy files** task to copy Terraform file to Artifacts directory.
 
 3. Once you review the **Tasks** tab of the **Terraform-CI** pane, click the ellipsis symbol in the top right corner and, in the dropdown menu, click **Queue**.
 
+   ![LAB14b-Az400_17](Evidencia/LAB14b-Az400_17.png)
+
 4. On the **Run pipeline** pane, click **Run** to initiate the build.
+
+   ![LAB14b-Az400_18](Evidencia/LAB14b-Az400_18.png)
 
 5. On the **Summary** tab of the build run pane, in the **Jobs** section, click **Agent job 1** and monitor the progress of the build process.
 
+   ![LAB14b-Az400_19](Evidencia/LAB14b-Az400_19.png)
+
+   ![LAB14b-Az400_20](Evidencia/LAB14b-Az400_20.png)
+
+   ![LAB14b-Az400_21](Evidencia/LAB14b-Az400_21.png)
+
+   ![LAB14b-Az400_22](Evidencia/LAB14b-Az400_22.png)
+
+   ![LAB14b-Az400_24](Evidencia/LAB14b-Az400_24.png)
+
+   ![LAB14b-Az400_25](Evidencia/LAB14b-Az400_25.png)
+
 6. Once the build succeeds, switch back to the **Summary** tab of the build run pane, in the **Related** section, click the **1 published, 1 consumed** link. This will display the **Artifacts** pane.
 
+   ![LAB14b-Az400_26](Evidencia/LAB14b-Az400_26.png)
+
 7. On the **Artifacts** pane, on the **Published** tab, expand the **drop** folder, verify that it contains the **PartsUnlimitedwebsite.zip** file, then expand its **Terraform** subfolder, and verify that it includes the **webapp.tf** file.
+
+   ![LAB14b-Az400_27](Evidencia/LAB14b-Az400_27.png)
+
+   ![LAB14b-Az400_28](Evidencia/LAB14b-Az400_28.png)
 
 #### Task 3: Deploy resources using Terraform (IaC) in Azure CD pipeline
 
@@ -121,11 +177,19 @@ In this task, you will create Azure resources using Terraform as part of your de
 
 1. In the Azure DevOps portal, in the vertical menu bar at the left of the Azure DevOps portal, in the **Pipelines** section, click **Releases**, ensure that the **Terraform-CD** entry is selected, and click **Edit**.
 
+   ![LAB14b-Az400_29](Evidencia/LAB14b-Az400_29.png)
+
 2. On the **All pipelines > Terraform-CD** pane, in the rectangle representing the **Dev** stage, click the **1 job, 8 tasks** link.
+
+   ![LAB14b-Az400_30](Evidencia/LAB14b-Az400_30.png)
 
 3. In the list of tasks of the **Dev** stage, select the **Azure CLI to deploy required Azure resources** task.
 
 4. On the **Azure CLI** pane, in the **Azure subscription** dropdown list, select the entry representing your Azure subscription and then click **Authorize** to configure the corresponding service connection. When prompted, sign in using the account with the Owner role in the Azure subscription and the Global Administrator role in the Azure AD tenant associated with the Azure subscription.
+
+   ![LAB14b-Az400_31](Evidencia/LAB14b-Az400_31.png)
+
+   ![LAB14b-Az400_32](Evidencia/LAB14b-Az400_32.png)
 
    > **Note**: By default, Terraform stores state locally in a file named terraform.tfstate. When working with Terraform in a team, use of a local file makes Terraform usage complicated. Terraform supports a remote data store, that facilitates state sharing. In this case, we are using the **Azure CLI** task to create an Azure storage account and a blob container to store Terraform state. For more information regarding Terraform remote state, refer to [Terraform documentation](https://www.terraform.io/docs/state/remote.html)
 
@@ -133,15 +197,23 @@ In this task, you will create Azure resources using Terraform as part of your de
 
 6. On the **Azure PowerShell** pane, in the **Azure Connection Type** dropdown list, select **Azure Resource Manager** and then, in the **Azure Subscription** dropdown list, select the newly created Azure service connection (the one under “Available Azure Service Connection”).
 
+   ![LAB14b-Az400_33](Evidencia/LAB14b-Az400_33.png)
+
+   ![LAB14b-Az400_34](Evidencia/LAB14b-Az400_34.png)
+
    > **Note**: To configure the Terraform [backend](https://www.terraform.io/docs/backends/), we need the access key to the Azure Storage account hosting the Terraform state. In this case, we are using Azure PowerShell task to retrieve the access key of the Azure Storage account provisioned in the previous task. By using `Write-Host "##vso[task.setvariable variable=storagekey]$key"` we are creating a pipeline variable that we will be able to use on later tasks.
 
 7. In the list of tasks of the **Dev** stage, select the **Replace tokens in Terraform file** task.
 
    > **Note**: If you carefully reviewed the **webapp.tf** file, you should have noticed a few values suffixed and prefixed with **__**, such as `__terraformstorageaccount__`. The **Replace Tokens** task will replace those values with the variable values defined in the release pipeline.
 
+   ![LAB14b-Az400_35](Evidencia/LAB14b-Az400_35.png)
+
 8. Terraform tool installer task is used to install a specified version of Terraform from the Internet or the tools cache and prepends it to the PATH of the Azure Pipelines Agent (hosted or private).
 
 9. In the list of tasks of the **Dev** stage, select and review the **Install Terraform** task. This task installs the Terraform version you designate.
+
+   ![LAB14b-Az400_36](Evidencia/LAB14b-Az400_36.png)
 
    > **Note**: The When running Terraform in automation, the focus is usually on the core plan/apply cycle, which consists of the following three stages:
 
@@ -157,11 +229,15 @@ In this task, you will create Azure resources using Terraform as part of your de
 
 12. On the **Terraform** pane, in the **Container** dropdown list, type **terraform** and ensure that the **Key** parameter is set to **terraform.tfstate**.
 
+    ![LAB14b-Az400_37](Evidencia/LAB14b-Az400_37.png)
+
     > **Note**: The `terraform init` command parses all of the *.tf files in the current working directory and automatically downloads any of the providers required to process them. In this example, it will download the [Azure provider](https://www.terraform.io/docs/providers/azurerm/), since we are deploying Azure resources. For more information about `terraform init` command, refer to [Terraform documentation](https://www.terraform.io/docs/commands/init.html)
 
 13. In the list of tasks of the **Dev** stage, select the **Terraform: plan** task.
 
 14. On the **Terraform** pane, in the **Azure subscription** dropdown list, select the same Azure service connection you used previously.
+
+    ![LAB14b-Az400_39](Evidencia/LAB14b-Az400_39.png)
 
     > **Note**: The `terraform plan` command is used to create an execution plan. Terraform determines what actions are necessary to achieve the desired state specified in the configuration files. This allows you to review which changes are in scope, without actually having to apply them. For more information about `terraform plan` command, refer to [Terraform documentation](https://www.terraform.io/docs/commands/plan.html)
 
@@ -169,29 +245,105 @@ In this task, you will create Azure resources using Terraform as part of your de
 
 16. On the **Terraform** pane, in the **Azure subscription** dropdown list, select the same Azure service connection you used previously.
 
+    ![LAB14b-Az400_40](Evidencia/LAB14b-Az400_40.png)
+
     > **Note**: This task will run the `terraform apply` command to deploy the resources. By default, it would also prompt for a confirmation to proceed. Since we are automating the deployment, the task includes the `auto-approve` parameter that eliminates the need for a confirmation.
 
 17. In the list of tasks of the **Dev** stage, select the **Azure App Service Deploy** task. Select Azure service connection from the drop-down.
+
+    ![LAB14b-Az400_41](Evidencia/LAB14b-Az400_41.png)
 
     > **Note**: This task will deploy the PartsUnlimited package to Azure app service, provisioned by the **Terraform: apply -auto-approve** task in the previous step.
 
 18. On the **Dev** stage, click on **Agent job** and on the Agent pool dropdown list select: **Azure Pipelines > windows-2019**.
 
+    ![LAB14b-Az400_42](Evidencia/LAB14b-Az400_42.png)
+
+    ![LAB14b-Az400_43](Evidencia/LAB14b-Az400_43.png)
+
 19. On the **All pipelines > Terraform-CD** pane, click **Save**, in the **Save** dialog box, click **OK**, and, in the upper right corner, click **Create a release**.
+
+    ![LAB14b-Az400_44](Evidencia/LAB14b-Az400_44.png)
+
+    ![LAB14b-Az400_45](Evidencia/LAB14b-Az400_45.png)
 
 20. On the **Create a new release** pane, in the **Stages for a trigger change from automated to manual** dropdown list, click **Dev**, in the **Artifacts** section, in the **Version** dropdown list, select the entry representing the version of the artifact for this release, and click **Create**.
 
+    ![LAB14b-Az400_46](Evidencia/LAB14b-Az400_46.png)
+
+    ![LAB14b-Az400_47](Evidencia/LAB14b-Az400_47.png)
+
 21. In the Azure DevOps portal, navigate back to the **Terraform-CD** pane and click the entry **Release-1** representing the newly created release.
+
+    ![LAB14b-Az400_48](Evidencia/LAB14b-Az400_48.png)
+
+    ![LAB14b-Az400_49](Evidencia/LAB14b-Az400_49.png)
 
 22. On the **Terraform-CD > Release-1** blade, click the rectangle representing the **Dev** stage, on the **Dev** pane, click **Deploy** and then click **Deploy** again.
 
+    ![LAB14b-Az400_50](Evidencia/LAB14b-Az400_50.png)
+
+    ![LAB14b-Az400_51](Evidencia/LAB14b-Az400_51.png)
+
 23. Back on the On the **Terraform-CD > Release-1** blade, click the rectangle representing the **Dev** stage and monitor the deployment process.
+
+    ![LAB14b-Az400_52](Evidencia/LAB14b-Az400_52.png)
+
+    ![LAB14b-Az400_53](Evidencia/LAB14b-Az400_53.png)
+
+    ![LAB14b-Az400_54](Evidencia/LAB14b-Az400_54.png)
+
+    ![LAB14b-Az400_55](Evidencia/LAB14b-Az400_55.png)
+
+    ![LAB14b-Az400_56](Evidencia/LAB14b-Az400_56.png)
+
+    ![LAB14b-Az400_56a](Evidencia/LAB14b-Az400_56a.png)
+
+    ![LAB14b-Az400_56b](Evidencia/LAB14b-Az400_56b.png)
+
+    ![LAB14b-Az400_56c1](Evidencia/LAB14b-Az400_56c1.png)
+
+    ![LAB14b-Az400_56c2](Evidencia/LAB14b-Az400_56c2.png)
+
+    ![LAB14b-Az400_56c3](Evidencia/LAB14b-Az400_56c3.png)
+
+    ![LAB14b-Az400_56c4](Evidencia/LAB14b-Az400_56c4.png)
+
+    ![LAB14b-Az400_56c5](Evidencia/LAB14b-Az400_56c5.png)
+
+    ![LAB14b-Az400_56c6](Evidencia/LAB14b-Az400_56c6.png)
+
+    ![LAB14b-Az400_56c7](Evidencia/LAB14b-Az400_56c7.png)
+
+    ![LAB14b-Az400_56c8](Evidencia/LAB14b-Az400_56c8.png)
+
+    ![LAB14b-Az400_56c9](Evidencia/LAB14b-Az400_56c9.png)
+
+    ![LAB14b-Az400_56c10](Evidencia/LAB14b-Az400_56c10.png)
+
+    ![LAB14b-Az400_56c11](Evidencia/LAB14b-Az400_56c11.png)
 
 24. Once the release successfully completes, on your lab computer, launch another web browser window, navigate to the [**Azure Portal**](https://portal.azure.com/), and sign in with the user account that has at least the Contributor role in the Azure subscription you will be using in this lab.
 
 25. In the Azure portal, search for and select the **App Services** resources and, from the **App Services** blade, navigate to the web app which name starts with **pulterraformweb**.
 
+    ![LAB14b-Az400_57](Evidencia/LAB14b-Az400_57.png)
+
+    ![LAB14b-Az400_57a](Evidencia/LAB14b-Az400_57a.png)
+
+    ![LAB14b-Az400_57b](Evidencia/LAB14b-Az400_57b.png)
+
+    ![LAB14b-Az400_58](Evidencia/LAB14b-Az400_58.png)
+
+    
+
 26. On the web app blade, click **Browse**. This will open another web browser tab, displaying the newly deployed web application.
+
+    ![LAB14b-Az400_59](Evidencia/LAB14b-Az400_59.png)
+
+    ![LAB14b-Az400_60](Evidencia/LAB14b-Az400_60.png)
+
+    ![LAB14b-Az400_61](Evidencia/LAB14b-Az400_61.png)
 
 ### Exercise 2: Remove the Azure lab resources
 
@@ -213,6 +365,8 @@ In this task, you will use Azure Cloud Shell to remove the Azure resources provi
    az group list --query '[?contains(`["terraformrg", "PULTerraform"]`, name)].name' --output tsv
    ```
 
+   ![LAB14b-Az400_62a](Evidencia/LAB14b-Az400_62a.png)
+
 3. Delete all resource groups you created throughout the labs of this module by running the following command:
 
    ShellCopy
@@ -222,6 +376,16 @@ In this task, you will use Azure Cloud Shell to remove the Azure resources provi
    ```
 
    > **Note**: The command executes asynchronously (as determined by the –nowait parameter), so while you will be able to run another Azure CLI command immediately afterwards within the same Bash session, it will take a few minutes before the resource groups are actually removed.
+
+
+
+![LAB14b-Az400_63](Evidencia/LAB14b-Az400_63.png)
+
+![LAB14b-Az400_64](Evidencia/LAB14b-Az400_64.png)
+
+![LAB14b-Az400_65](Evidencia/LAB14b-Az400_65.png)
+
+![LAB14b-Az400_66](Evidencia/LAB14b-Az400_66.png)
 
 ## Review
 

@@ -6,10 +6,10 @@ https://dev.azure.com/fernanipmotech
 
 
 
-**Token de acceso personal**:
+
 
 ````
-7mn6qqtebidxyzyaa632fzy52tjhqa64ht2xrisvq6elq7qshtha
+
 ````
 
 | Enter agent pool (press enter for default) | **az400m05l05a-pool** |

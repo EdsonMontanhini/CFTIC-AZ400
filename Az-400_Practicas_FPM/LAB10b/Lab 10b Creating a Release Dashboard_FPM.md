@@ -57,21 +57,21 @@ In this task, you will create an Azure DevOps Starter resource in your Azure sub
 
 2. In the Azure portal, search for and select the **DevOps Starter** resource type and, on the **DevOps Starter** blade, click **+ Add**.
 
-   ![LAB10b-Az400_01](C:\CFTIC-AZ-400_FPM\Az-400_Practicas_FPM\LAB10b\Evidencia\LAB10b-Az400_01.png)
+   ![LAB10b-Az400_01](Evidencia/LAB10b-Az400_01.png)
 
-   ![LAB10b-Az400_02](C:\CFTIC-AZ-400_FPM\Az-400_Practicas_FPM\LAB10b\Evidencia\LAB10b-Az400_02.png)
+   ![LAB10b-Az400_02](Evidencia/LAB10b-Az400_02.png)
 
 3. On the **DevOps Starter** blade, on the **Start fresh with a new application** pane, select the **.NET** tile and on the tops next to Setting up DevOps starter with GitHub, change settings, click **here** and select **Azure DevOps** , **Done** and **Next: Framework >**.
 
-   ![LAB10b-Az400_03](C:\CFTIC-AZ-400_FPM\Az-400_Practicas_FPM\LAB10b\Evidencia\LAB10b-Az400_03.png)
+   ![LAB10b-Az400_03](Evidencia/LAB10b-Az400_03.png)
 
 4. On the **DevOps Starter** blade, on the **Choose an application framework** pane, select the **ASP.NET Core** tile, move the **Add a database** slider to the **On** position, and click **Next: Service >**.
 
-   ![LAB10b-Az400_04](C:\CFTIC-AZ-400_FPM\Az-400_Practicas_FPM\LAB10b\Evidencia\LAB10b-Az400_04.png)
+   ![LAB10b-Az400_04](Evidencia/LAB10b-Az400_04.png)
 
 5. On the **DevOps Starter** blade, on the **Select an Azure service to deploy the application** pane, ensure that the **Windows Web App** tile is selected and click **Next: Create >**.
 
-   ![LAB10b-Az400_05](C:\CFTIC-AZ-400_FPM\Az-400_Practicas_FPM\LAB10b\Evidencia\LAB10b-Az400_05.png)
+   ![LAB10b-Az400_05](Evidencia/LAB10b-Az400_05.png)
 
 6. On the **DevOps Starter** blade, on the **Almost there** pane, specify the following settings:
 
@@ -98,23 +98,23 @@ In this task, you will create an Azure DevOps Starter resource in your Azure sub
    | Location                             | the name of the same Azure region that you chose for the location of the Azure web app |
    | Database Name                        | **az400m10l02-db**                                           |
 
-   ![LAB10b-Az400_06](C:\CFTIC-AZ-400_FPM\Az-400_Practicas_FPM\LAB10b\Evidencia\LAB10b-Az400_06.png)
+   ![LAB10b-Az400_06](Evidencia/LAB10b-Az400_06.png)
 
 9. Back on the **DevOps Starter** blade, on the **Almost there** pane, click **Done** and then **Review+Create**.
 
-   ![LAB10b-Az400_07](C:\CFTIC-AZ-400_FPM\Az-400_Practicas_FPM\LAB10b\Evidencia\LAB10b-Az400_07.png)
+   ![LAB10b-Az400_07](Evidencia/LAB10b-Az400_07.png)
 
    > **Note**: Wait for the deployment to complete. The provisioning of the **DevOps Starter** resource should take about 2 minutes.
 
 10. Once you receive the confirmation that the DevOps Starter resource was provisioned, click the **Go to resource** button. This will redirect the browser to the DevOps Starter blade.
 
-    ![LAB10b-Az400_08](C:\CFTIC-AZ-400_FPM\Az-400_Practicas_FPM\LAB10b\Evidencia\LAB10b-Az400_08.png)
+    ![LAB10b-Az400_08](Evidencia/LAB10b-Az400_08.png)
 
 11. On the DevOps Starter blade, track the progress of CI/CD pipeline until it completes successfully.
 
     > **Note**: The creation of the corresponding Azure web app and Azure SQL database might take about 5 minutes. The process automatically creates an Azure DevOps project that includes a ready-to-deploy repository as well as the build and release pipelines. The Azure resources are created as part of the automatically triggered deployment pipeline.
 
-![LAB10b-Az400_09](C:\CFTIC-AZ-400_FPM\Az-400_Practicas_FPM\LAB10b\Evidencia\LAB10b-Az400_09.png)
+![LAB10b-Az400_09](Evidencia/LAB10b-Az400_09.png)
 
 #### Task 2: Create Azure DevOps releases
 
@@ -122,109 +122,109 @@ In this task, you will create several Azure DevOps releases, including one that 
 
 1. In the web browser displaying the Azure portal, on the DevOps Starter page, in the toolbar, click **Project homepage**. This will automatically open another browser tab displaying the **Creating a Release Dashboard** project in the Azure Devops portal. If prompted to sign in, authenticate with your Azure DevOps organization credentials.
 
-   ![LAB10b-Az400_10](C:\CFTIC-AZ-400_FPM\Az-400_Practicas_FPM\LAB10b\Evidencia\LAB10b-Az400_10.png)
+   ![LAB10b-Az400_10](Evidencia/LAB10b-Az400_10.png)
 
    > **Note**: First, you will create a new release which will deploy successfully.
 
-   ![LAB10b-Az400_11](C:\CFTIC-AZ-400_FPM\Az-400_Practicas_FPM\LAB10b\Evidencia\LAB10b-Az400_11.png)
+   ![LAB10b-Az400_11](Evidencia/LAB10b-Az400_11.png)
 
-   ![LAB10b-Az400_12](C:\CFTIC-AZ-400_FPM\Az-400_Practicas_FPM\LAB10b\Evidencia\LAB10b-Az400_12.png)
+   ![LAB10b-Az400_12](Evidencia/LAB10b-Az400_12.png)
 
-   ![LAB10b-Az400_13](C:\CFTIC-AZ-400_FPM\Az-400_Practicas_FPM\LAB10b\Evidencia\LAB10b-Az400_13.png)
+   ![LAB10b-Az400_13](Evidencia/LAB10b-Az400_13.png)
 
 2. In the Azure DevOps portal, in the vertical menu on the left side, click **Repos**, in the list of folders in the repository, navigate to the **Applications\aspnet-core-dotnet-core\Pages\Shared** folder and click the **Index.chtml** entry.
 
-   ![LAB10b-Az400_14](C:\CFTIC-AZ-400_FPM\Az-400_Practicas_FPM\LAB10b\Evidencia\LAB10b-Az400_14.png)
+   ![LAB10b-Az400_14](Evidencia/LAB10b-Az400_14.png)
 
 3. On the **Index.chtml** pane, click **Edit**, in line **20**, replace `<div class="description line-2"> Your ASP.NET Core app is up and running on Azure</div>` with `<div class="description line-2"> Your ASP.NET Core app v1.1 is up and running on Azure</div>` click **Commit**, and, on the **Commit** pane, click **Commit** again. This will automatically trigger the build pipeline.
 
-   ![LAB10b-Az400_15](C:\CFTIC-AZ-400_FPM\Az-400_Practicas_FPM\LAB10b\Evidencia\LAB10b-Az400_15.png)
+   ![LAB10b-Az400_15](Evidencia/LAB10b-Az400_15.png)
 
-   ![LAB10b-Az400_16](C:\CFTIC-AZ-400_FPM\Az-400_Practicas_FPM\LAB10b\Evidencia\LAB10b-Az400_16.png)
+   ![LAB10b-Az400_16](Evidencia/LAB10b-Az400_16.png)
 
-   ![LAB10b-Az400_17](C:\CFTIC-AZ-400_FPM\Az-400_Practicas_FPM\LAB10b\Evidencia\LAB10b-Az400_17.png)
+   ![LAB10b-Az400_17](Evidencia/LAB10b-Az400_17.png)
 
-   ![LAB10b-Az400_18](C:\CFTIC-AZ-400_FPM\Az-400_Practicas_FPM\LAB10b\Evidencia\LAB10b-Az400_18.png)
+   ![LAB10b-Az400_18](Evidencia/LAB10b-Az400_18.png)
 
 4. In the Azure DevOps portal, in the vertical navigational pane on the left side, click **Pipelines**.
 
 5. On the **Recent** tab of the **Pipelines** pane, click the **az400m10l02-CI** entry, on the **Runs** tab of the **az400m10l02-CI** pane, select the most recent run, on the **Summary** tab of the run, in the **Jobs** section, click **Build** and monitor the job until its successful completion.
 
-   ![LAB10b-Az400_19](C:\CFTIC-AZ-400_FPM\Az-400_Practicas_FPM\LAB10b\Evidencia\LAB10b-Az400_19.png)
+   ![LAB10b-Az400_19](Evidencia/LAB10b-Az400_19.png)
 
-   ![LAB10b-Az400_20](C:\CFTIC-AZ-400_FPM\Az-400_Practicas_FPM\LAB10b\Evidencia\LAB10b-Az400_20.png)
+   ![LAB10b-Az400_20](Evidencia/LAB10b-Az400_20.png)
 
-   ![LAB10b-Az400_21](C:\CFTIC-AZ-400_FPM\Az-400_Practicas_FPM\LAB10b\Evidencia\LAB10b-Az400_21.png)
+   ![LAB10b-Az400_21](Evidencia/LAB10b-Az400_21.png)
 
-   ![LAB10b-Az400_22](C:\CFTIC-AZ-400_FPM\Az-400_Practicas_FPM\LAB10b\Evidencia\LAB10b-Az400_22.png)
+   ![LAB10b-Az400_22](Evidencia/LAB10b-Az400_22.png)
 
-   ![LAB10b-Az400_23](C:\CFTIC-AZ-400_FPM\Az-400_Practicas_FPM\LAB10b\Evidencia\LAB10b-Az400_23.png)
+   ![LAB10b-Az400_23](Evidencia/LAB10b-Az400_23.png)
 
 6. Once the job completes, in the Azure DevOps portal, in the vertical navigational pane on the left side, in the **Pipelines** section, click **Releases**.
 
 7. On the **az400m10l02 - CD** pane, on the **Releases** tab, click the **Release-2** entry, on the **Pipeline** tab of the **Release-2** pane click the **dev** stage, on the **dev** pane, click **View logs**, and monitor progress of the deployment until its successful completion.
 
-   ![LAB10b-Az400_24](C:\CFTIC-AZ-400_FPM\Az-400_Practicas_FPM\LAB10b\Evidencia\LAB10b-Az400_24.png)
+   ![LAB10b-Az400_24](Evidencia/LAB10b-Az400_24.png)
 
-   ![LAB10b-Az400_25](C:\CFTIC-AZ-400_FPM\Az-400_Practicas_FPM\LAB10b\Evidencia\LAB10b-Az400_25.png)
+   ![LAB10b-Az400_25](Evidencia/LAB10b-Az400_25.png)
 
-   ![LAB10b-Az400_26](C:\CFTIC-AZ-400_FPM\Az-400_Practicas_FPM\LAB10b\Evidencia\LAB10b-Az400_26.png)
+   ![LAB10b-Az400_26](Evidencia/LAB10b-Az400_26.png)
 
-   ![LAB10b-Az400_27](C:\CFTIC-AZ-400_FPM\Az-400_Practicas_FPM\LAB10b\Evidencia\LAB10b-Az400_27.png)
+   ![LAB10b-Az400_27](Evidencia/LAB10b-Az400_27.png)
 
    > **Note**: Now, you will create a new release which deployment will fail. The failure will be caused by built-in assemblies test, which consider the change associated with the new release to be invalid.
 
 8. In the Azure DevOps portal, in the vertical menu on the left side, click **Repos**, in the list of folders in the repository, navigate to the **Applications\aspnet-core-dotnet-core\Pages\Shared** folder and click the **Index.chtml** entry.
 
-   ![LAB10b-Az400_28](C:\CFTIC-AZ-400_FPM\Az-400_Practicas_FPM\LAB10b\Evidencia\LAB10b-Az400_28.png)
+   ![LAB10b-Az400_28](Evidencia/LAB10b-Az400_28.png)
 
 9. On the **Index.chtml** pane, click **Edit**, in line **4**, replace ` ViewData[“Title”] = “Home Page - ASP.NET Core”;`with` ViewData[“Title”] = “Home Page v1.2 - ASP.NET Core”;` click **Commit**, and, on the **Commit** pane, click **Commit** again. This will automatically trigger the build pipeline.
 
-   ![LAB10b-Az400_29](C:\CFTIC-AZ-400_FPM\Az-400_Practicas_FPM\LAB10b\Evidencia\LAB10b-Az400_29.png)
+   ![LAB10b-Az400_29](Evidencia/LAB10b-Az400_29.png)
 
-   ![LAB10b-Az400_30](C:\CFTIC-AZ-400_FPM\Az-400_Practicas_FPM\LAB10b\Evidencia\LAB10b-Az400_30.png)
+   ![LAB10b-Az400_30](Evidencia/LAB10b-Az400_30.png)
 
-   ![LAB10b-Az400_31](C:\CFTIC-AZ-400_FPM\Az-400_Practicas_FPM\LAB10b\Evidencia\LAB10b-Az400_31.png)
+   ![LAB10b-Az400_31](Evidencia/LAB10b-Az400_31.png)
 
-   ![LAB10b-Az400_32](C:\CFTIC-AZ-400_FPM\Az-400_Practicas_FPM\LAB10b\Evidencia\LAB10b-Az400_32.png)
+   ![LAB10b-Az400_32](Evidencia/LAB10b-Az400_32.png)
 
 10. In the Azure DevOps portal, in the vertical navigational pane on the left side, click **Pipelines**.
 
 11. On the **Recent** tab of the **Pipelines** pane, click the **az400m10l02-CI** entry, on the **Runs** tab of the **az400m10l02-CI** pane, select the most recent run, on the **Summary** tab of the run, in the **Jobs** section, click **Build** and monitor the job until its successful completion.
 
-    ![LAB10b-Az400_33](C:\CFTIC-AZ-400_FPM\Az-400_Practicas_FPM\LAB10b\Evidencia\LAB10b-Az400_33.png)
+    ![LAB10b-Az400_33](Evidencia/LAB10b-Az400_33.png)
 
-    ![LAB10b-Az400_34](C:\CFTIC-AZ-400_FPM\Az-400_Practicas_FPM\LAB10b\Evidencia\LAB10b-Az400_34.png)
+    ![LAB10b-Az400_34](Evidencia/LAB10b-Az400_34.png)
 
-    ![LAB10b-Az400_35](C:\CFTIC-AZ-400_FPM\Az-400_Practicas_FPM\LAB10b\Evidencia\LAB10b-Az400_35.png)
+    ![LAB10b-Az400_35](Evidencia/LAB10b-Az400_35.png)
 
-    ![LAB10b-Az400_36](C:\CFTIC-AZ-400_FPM\Az-400_Practicas_FPM\LAB10b\Evidencia\LAB10b-Az400_36.png)
+    ![LAB10b-Az400_36](Evidencia/LAB10b-Az400_36.png)
 
 12. Once the job completes, in the Azure DevOps portal, in the vertical navigational pane on the left side, in the **Pipelines** section, click **Releases**.
 
 13. On the **az400m10l02 - CD** pane, on the **Releases** tab, click the **Release-2** entry, on the **Pipeline** tab of the **Release-2** pane click the **dev** stage, on the **dev** pane, click **View logs**, and monitor progress of the deployment until its failure during the **Test Assemblies** stage.
 
-    ![LAB10b-Az400_37](C:\CFTIC-AZ-400_FPM\Az-400_Practicas_FPM\LAB10b\Evidencia\LAB10b-Az400_37.png)
+    ![LAB10b-Az400_37](Evidencia/LAB10b-Az400_37.png)
 
-    ![LAB10b-Az400_38](C:\CFTIC-AZ-400_FPM\Az-400_Practicas_FPM\LAB10b\Evidencia\LAB10b-Az400_38.png)
+    ![LAB10b-Az400_38](Evidencia/LAB10b-Az400_38.png)
 
-    ![LAB10b-Az400_39](C:\CFTIC-AZ-400_FPM\Az-400_Practicas_FPM\LAB10b\Evidencia\LAB10b-Az400_39.png)
+    ![LAB10b-Az400_39](Evidencia/LAB10b-Az400_39.png)
 
-    ![LAB10b-Az400_40](C:\CFTIC-AZ-400_FPM\Az-400_Practicas_FPM\LAB10b\Evidencia\LAB10b-Az400_40.png)
+    ![LAB10b-Az400_40](Evidencia/LAB10b-Az400_40.png)
 
-    ![LAB10b-Az400_41](C:\CFTIC-AZ-400_FPM\Az-400_Practicas_FPM\LAB10b\Evidencia\LAB10b-Az400_41.png)
+    ![LAB10b-Az400_41](Evidencia/LAB10b-Az400_41.png)
 
-    ![LAB10b-Az400_42](C:\CFTIC-AZ-400_FPM\Az-400_Practicas_FPM\LAB10b\Evidencia\LAB10b-Az400_42.png)
+    ![LAB10b-Az400_42](Evidencia/LAB10b-Az400_42.png)
 
-    ![LAB10b-Az400_43](C:\CFTIC-AZ-400_FPM\Az-400_Practicas_FPM\LAB10b\Evidencia\LAB10b-Az400_43.png)
+    ![LAB10b-Az400_43](Evidencia/LAB10b-Az400_43.png)
 
-    ![LAB10b-Az400_44](C:\CFTIC-AZ-400_FPM\Az-400_Practicas_FPM\LAB10b\Evidencia\LAB10b-Az400_44.png)
+    ![LAB10b-Az400_44](Evidencia/LAB10b-Az400_44.png)
 
-    ![LAB10b-Az400_45](C:\CFTIC-AZ-400_FPM\Az-400_Practicas_FPM\LAB10b\Evidencia\LAB10b-Az400_45.png)
+    ![LAB10b-Az400_45](Evidencia/LAB10b-Az400_45.png)
 
-    ![LAB10b-Az400_46](C:\CFTIC-AZ-400_FPM\Az-400_Practicas_FPM\LAB10b\Evidencia\LAB10b-Az400_46.png)
+    ![LAB10b-Az400_46](Evidencia/LAB10b-Az400_46.png)
 
-    ![LAB10b-Az400_47](C:\CFTIC-AZ-400_FPM\Az-400_Practicas_FPM\LAB10b\Evidencia\LAB10b-Az400_47.png)
+    <img src="Evidencia/LAB10b-Az400_47.png" alt="LAB10b-Az400_47" style="zoom:50%;" />
 
 #### Task 3: Create an Azure DevOps release dashboard
 

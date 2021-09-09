@@ -123,14 +123,20 @@ In this task, you will provision an Azure VM running Windows Server 2016 along w
 
 4. Click **Review + create** and then click **Create**.
 
+   ![LAB11b-Az400_15](Evidencia_01/LAB11b-Az400_15.png)
+
+   ![LAB11b-Az400_16](Evidencia_01/LAB11b-Az400_16.png)
+
+   ![LAB11b-Az400_17](Evidencia_01/LAB11b-Az400_17.png)
+
    ![LAB11b-Az400_18](Evidencia_01/LAB11b-Az400_18.png)
 
    ![LAB11b-Az400_19](Evidencia_01/LAB11b-Az400_19.png)
-
+   
    ![LAB11b-Az400_20](Evidencia_01/LAB11b-Az400_20.png)
-
+   
    ![LAB11b-Az400_21](Evidencia_01/LAB11b-Az400_21.png)
-
+   
    > **Note**: Wait for the process to complete. This should take about 15 minutes.
 
 ![LAB11b-Az400_22](Evidencia_01/LAB11b-Az400_22.png)
